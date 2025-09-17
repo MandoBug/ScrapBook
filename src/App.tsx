@@ -38,7 +38,7 @@ function normalizeMedia(photos: RawMedia[] = []): MediaItem[] {
   });
 }
 // ---------- Config ----------
-const STAR_COUNT = 180; // star field density
+const STAR_COUNT = 600; // star field density
 const SHOOTING_STARS = 20; // how many shooting star animations
 const THREAD_STAR_DENSITY = 6; // small beads per segment on the thread
 
@@ -1358,7 +1358,7 @@ export default function App() {
           <div className="mx-auto flex max-w-6xl items-center justify-between gap-3 p-3">
             <div className="flex items-center gap-2">
               <Heart className="text-emerald-500" />
-              <h1 className="text-lg sm:text-xl font-semibold">Our Scrapbook</h1>
+              <h1 className="text-lg sm:text-xl font-semibold">Book of Memories</h1>
             </div>
             <div className="flex items-center gap-2">
               <button onClick={() => setView((v) => (v === "grid" ? "list" : "grid"))} className="inline-flex items-center gap-2 rounded-xl border border-zinc-700 px-3 py-1.5 text-sm hover:bg-zinc-900">
