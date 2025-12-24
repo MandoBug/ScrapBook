@@ -1,0 +1,1410 @@
+[
+  {
+  "id": "m-2025-05-17",
+  "title": "Jadyn's 20th Birthday",
+  "date": "2025-05-17",
+  "location": "Santa Cruz- UCSC",
+  "photos": [
+    {
+      "kind": "image",
+      "s3Key": "I_love_Jadyn/IMG_6967.png"
+    },
+    {
+      "kind": "image",
+      "s3Key": "I_love_Jadyn/IMG_6973.png"
+    },
+    {
+      "kind": "video",
+      "s3Key": "I_love_Jadyn/IMG_2772.MOV",
+      "posterS3Key": "I_love_Jadyn/IMG_6973.png"
+    },
+    {
+      "kind": "video",
+      "s3Key": "I_love_Jadyn/IMG_6980.MOV",
+      "posterS3Key": "I_love_Jadyn/IMG_6973.png"
+    },
+    {
+      "kind": "video",
+      "s3Key": "I_love_Jadyn/IMG_6981.MOV",
+      "posterS3Key": "I_love_Jadyn/IMG_6973.png"
+    },
+    {
+      "kind": "video",
+      "s3Key": "I_love_Jadyn/IMG_6982.MOV",
+      "posterS3Key": "I_love_Jadyn/IMG_6973.png"
+    }
+  ],
+  "description": "Your 20th Birthday. I loved this day because it was my way of showing how much you meant to me. It was also memoric because it was your first introduction to some of my friends."
+},
+  {
+  "id": "m-2025-02-08",
+  "title": "Jadyn’s Day",
+  "date": "2025-02-08",
+  "location": "Santa Cruz",
+  "description": "This day was all about you. You deserved to have every light shine on you, and seeing you glow while experiencing your dream day was something I’ll never forget.",
+  "photos": [
+    { "kind": "image", "s3Key": "I_love_Jadyn/2025-02-08/IMG_3914.jpeg" },
+    { "kind": "image", "s3Key": "I_love_Jadyn/2025-02-08/FullSizeRender.jpeg" },
+    { "kind": "image", "s3Key": "I_love_Jadyn/2025-02-08/IMG_3851.jpeg" },
+    { "kind": "image", "s3Key": "I_love_Jadyn/2025-02-08/IMG_3856.jpeg" },
+    { "kind": "image", "s3Key": "I_love_Jadyn/2025-02-08/IMG_3863.jpeg" },
+    { "kind": "image", "s3Key": "I_love_Jadyn/2025-02-08/IMG_3864.jpeg" },
+    { "kind": "image", "s3Key": "I_love_Jadyn/2025-02-08/IMG_3870.jpeg" },
+    { "kind": "image", "s3Key": "I_love_Jadyn/2025-02-08/IMG_3877.jpeg" },
+    { "kind": "image", "s3Key": "I_love_Jadyn/2025-02-08/IMG_3880.jpeg" },
+    { "kind": "image", "s3Key": "I_love_Jadyn/2025-02-08/IMG_3882.jpeg" },
+    { "kind": "image", "s3Key": "I_love_Jadyn/2025-02-08/IMG_3883.jpeg" },
+    { "kind": "image", "s3Key": "I_love_Jadyn/2025-02-08/IMG_3884.jpeg" },
+    { "kind": "image", "s3Key": "I_love_Jadyn/2025-02-08/IMG_3885.jpeg" },
+    { "kind": "image", "s3Key": "I_love_Jadyn/2025-02-08/IMG_3889.jpeg" },
+    { "kind": "image", "s3Key": "I_love_Jadyn/2025-02-08/IMG_3890.jpeg" },
+    { "kind": "image", "s3Key": "I_love_Jadyn/2025-02-08/IMG_3902.jpeg" },
+    { "kind": "image", "s3Key": "I_love_Jadyn/2025-02-08/IMG_3906.jpeg" },
+    { "kind": "image", "s3Key": "I_love_Jadyn/2025-02-08/IMG_3916.jpeg" },
+    { "kind": "image", "s3Key": "I_love_Jadyn/2025-02-08/IMG_3921.jpeg" },
+
+    { "kind": "image", "s3Key": "I_love_Jadyn/2025-02-08/IMG_6421.jpeg" },
+    { "kind": "image", "s3Key": "I_love_Jadyn/2025-02-08/IMG_6422.jpeg" },
+    { "kind": "image", "s3Key": "I_love_Jadyn/2025-02-08/IMG_6423.jpeg" },
+    { "kind": "image", "s3Key": "I_love_Jadyn/2025-02-08/IMG_6425.jpeg" },
+    { "kind": "image", "s3Key": "I_love_Jadyn/2025-02-08/IMG_6427.jpeg" },
+    { "kind": "image", "s3Key": "I_love_Jadyn/2025-02-08/IMG_6428.jpeg" },
+    { "kind": "image", "s3Key": "I_love_Jadyn/2025-02-08/IMG_6429.jpeg" },
+    { "kind": "image", "s3Key": "I_love_Jadyn/2025-02-08/IMG_6430.jpeg" },
+    { "kind": "image", "s3Key": "I_love_Jadyn/2025-02-08/IMG_6431.jpeg" },
+    { "kind": "image", "s3Key": "I_love_Jadyn/2025-02-08/IMG_6433.jpeg" },
+    { "kind": "image", "s3Key": "I_love_Jadyn/2025-02-08/IMG_6434.jpeg" },
+    { "kind": "image", "s3Key": "I_love_Jadyn/2025-02-08/IMG_6435.jpeg" },
+    { "kind": "image", "s3Key": "I_love_Jadyn/2025-02-08/IMG_6437.jpeg" },
+    { "kind": "image", "s3Key": "I_love_Jadyn/2025-02-08/IMG_6438.jpeg" },
+    { "kind": "image", "s3Key": "I_love_Jadyn/2025-02-08/IMG_6439.jpeg" },
+    { "kind": "image", "s3Key": "I_love_Jadyn/2025-02-08/IMG_6440.jpeg" },
+    { "kind": "image", "s3Key": "I_love_Jadyn/2025-02-08/IMG_6441.jpeg" },
+    { "kind": "image", "s3Key": "I_love_Jadyn/2025-02-08/IMG_6442.jpeg" },
+    { "kind": "image", "s3Key": "I_love_Jadyn/2025-02-08/IMG_6443.jpeg" },
+    { "kind": "image", "s3Key": "I_love_Jadyn/2025-02-08/IMG_6444.jpeg" },
+    { "kind": "image", "s3Key": "I_love_Jadyn/2025-02-08/IMG_6445.jpeg" },
+    { "kind": "image", "s3Key": "I_love_Jadyn/2025-02-08/IMG_6446.jpeg" },
+    { "kind": "image", "s3Key": "I_love_Jadyn/2025-02-08/IMG_6462.jpeg" },
+    { "kind": "image", "s3Key": "I_love_Jadyn/2025-02-08/IMG_6464.jpeg" },
+    { "kind": "image", "s3Key": "I_love_Jadyn/2025-02-08/IMG_6722.jpeg" },
+    { "kind": "image", "s3Key": "I_love_Jadyn/2025-02-08/IMG_6724.jpeg" },
+    { "kind": "image", "s3Key": "I_love_Jadyn/2025-02-08/IMG_6726.jpeg" },
+    { "kind": "image", "s3Key": "I_love_Jadyn/2025-02-08/IMG_6728.jpeg" },
+    { "kind": "image", "s3Key": "I_love_Jadyn/2025-02-08/IMG_6734.jpeg" },
+    { "kind": "image", "s3Key": "I_love_Jadyn/2025-02-08/IMG_6739.jpeg" },
+    { "kind": "image", "s3Key": "I_love_Jadyn/2025-02-08/IMG_6741.jpeg" },
+    { "kind": "image", "s3Key": "I_love_Jadyn/2025-02-08/IMG_6742.jpeg" },
+    { "kind": "image", "s3Key": "I_love_Jadyn/2025-02-08/IMG_6745.jpeg" },
+    { "kind": "image", "s3Key": "I_love_Jadyn/2025-02-08/IMG_6749.jpeg" },
+    { "kind": "image", "s3Key": "I_love_Jadyn/2025-02-08/IMG_6753.jpeg" },
+    { "kind": "image", "s3Key": "I_love_Jadyn/2025-02-08/IMG_6756.jpeg" },
+    { "kind": "image", "s3Key": "I_love_Jadyn/2025-02-08/IMG_6761.jpeg" },
+    { "kind": "image", "s3Key": "I_love_Jadyn/2025-02-08/IMG_6764.jpeg" },
+    { "kind": "image", "s3Key": "I_love_Jadyn/2025-02-08/IMG_6765.jpeg" },
+    { "kind": "image", "s3Key": "I_love_Jadyn/2025-02-08/IMG_6811.jpeg" },
+    { "kind": "image", "s3Key": "I_love_Jadyn/2025-02-08/IMG_6812.jpeg" },
+
+    {
+      "kind": "video",
+      "s3Key": "I_love_Jadyn/2025-02-08/IMG_3853.MOV",
+      "posterS3Key": "I_love_Jadyn/2025-02-08/FullSizeRender.jpeg"
+    },
+    {
+      "kind": "video",
+      "s3Key": "I_love_Jadyn/2025-02-08/IMG_3859.MOV",
+      "posterS3Key": "I_love_Jadyn/2025-02-08/FullSizeRender.jpeg"
+    },
+    {
+      "kind": "video",
+      "s3Key": "I_love_Jadyn/2025-02-08/IMG_3911.MOV",
+      "posterS3Key": "I_love_Jadyn/2025-02-08/FullSizeRender.jpeg"
+    }
+  ]
+},
+{
+  "id": "m-2024-11-26-27",
+  "title": "Where it all Began",
+  "date": "2024-11-26",
+  "location": "",
+  "description": "A leap of faith I took. Little moments that felt like the end of the world to me. I am so happy this day happened.",
+  "photos": [
+    { "kind": "image", "s3Key": "I_love_Jadyn/2024-11-26:27/IMG_5957.jpeg" },
+    { "kind": "image", "s3Key": "I_love_Jadyn/2024-11-26:27/IMG_5971.jpeg" },
+    { "kind": "image", "s3Key": "I_love_Jadyn/2024-11-26:27/IMG_5989.jpeg" },
+    { "kind": "image", "s3Key": "I_love_Jadyn/2024-11-26:27/IMG_6015.jpeg" },
+
+    {
+      "kind": "video",
+      "s3Key": "I_love_Jadyn/2024-11-26:27/messages.MP4",
+      "posterS3Key": "I_love_Jadyn/2024-11-26:27/IMG_5957.jpeg"
+    }
+  ]
+},
+{
+  "id": "m-2025-01-06",
+  "title": "Gift exchange",
+  "date": "2025-01-06",
+  "location": "",
+  "description": "After Christmas break we met for some gift exchanges. I still absolutely loved the cookies!",
+  "photos": [
+    { "kind": "image", "s3Key": "I_love_Jadyn/2025-01-06/IMG_6250.jpeg" },
+    { "kind": "image", "s3Key": "I_love_Jadyn/2025-01-06/IMG_6247.jpeg" },
+    { "kind": "image", "s3Key": "I_love_Jadyn/2025-01-06/IMG_6248.jpeg" },
+    { "kind": "image", "s3Key": "I_love_Jadyn/2025-01-06/IMG_6249.jpeg" },
+    { "kind": "image", "s3Key": "I_love_Jadyn/2025-01-06/IMG_6251.jpeg" },
+    { "kind": "image", "s3Key": "I_love_Jadyn/2025-01-06/IMG_6252.jpeg" },
+    { "kind": "image", "s3Key": "I_love_Jadyn/2025-01-06/IMG_6253.jpeg" },
+    { "kind": "image", "s3Key": "I_love_Jadyn/2025-01-06/IMG_6254.jpeg" },
+
+    {
+      "kind": "video",
+      "s3Key": "I_love_Jadyn/2025-01-06/A9E9E89D-F4BB-4877-86B5-A306BD7739F8.MOV",
+      "posterS3Key": "I_love_Jadyn/2025-01-06/IMG_6247.jpeg"
+    }
+  ]
+},
+{
+  "id": "m-2025-01-08",
+  "title": "LEGOS",
+  "date": "2025-01-08",
+  "location": "",
+  "description": "Another day together. We built the legos I got you for christmas. This day was special!",
+  "photos": [
+    { "kind": "image", "s3Key": "I_love_Jadyn/2025-01-08/IMG_2812.jpeg" },
+    { "kind": "image", "s3Key": "I_love_Jadyn/2025-01-08/IMG_2813.jpeg" },
+    { "kind": "image", "s3Key": "I_love_Jadyn/2025-01-08/IMG_6301.jpeg" },
+    { "kind": "image", "s3Key": "I_love_Jadyn/2025-01-08/IMG_6302.jpeg" },
+    { "kind": "image", "s3Key": "I_love_Jadyn/2025-01-08/IMG_6303.jpeg" },
+    { "kind": "image", "s3Key": "I_love_Jadyn/2025-01-08/IMG_6305.jpeg" },
+    { "kind": "image", "s3Key": "I_love_Jadyn/2025-01-08/IMG_6306.jpeg" },
+    { "kind": "image", "s3Key": "I_love_Jadyn/2025-01-08/IMG_6307.jpeg" },
+    { "kind": "image", "s3Key": "I_love_Jadyn/2025-01-08/IMG_6308.jpeg" },
+    { "kind": "image", "s3Key": "I_love_Jadyn/2025-01-08/IMG_6309.jpeg" },
+    { "kind": "image", "s3Key": "I_love_Jadyn/2025-01-08/IMG_6311.jpeg" }
+  ]
+},
+{
+  "id": "m-2025-01-11",
+  "title": "Best day of my Life",
+  "date": "2025-01-11",
+  "location": "",
+  "description": "A long day with lots of moments. Some loud, some quiet. All of them worth keeping. This day you made it for me. I never felt so special and seen in my life. Thank you for this.",
+  "photos": [
+    { "kind": "image", "s3Key": "I_love_Jadyn/2025-01-11/IMG_2947 2.jpeg" },
+
+    {
+      "kind": "video",
+      "s3Key": "I_love_Jadyn/2025-01-11/IMG_2956.mov",
+      "posterS3Key": "I_love_Jadyn/2025-01-11/IMG_2947 2.jpeg"
+    },
+
+    { "kind": "image", "s3Key": "I_love_Jadyn/2025-01-11/IMG_2976 2.jpeg" },
+    { "kind": "image", "s3Key": "I_love_Jadyn/2025-01-11/IMG_2976.jpeg" },
+    { "kind": "image", "s3Key": "I_love_Jadyn/2025-01-11/IMG_2977 2.jpeg" },
+    { "kind": "image", "s3Key": "I_love_Jadyn/2025-01-11/IMG_2977.jpeg" },
+    { "kind": "image", "s3Key": "I_love_Jadyn/2025-01-11/IMG_2991 2.jpeg" },
+    { "kind": "image", "s3Key": "I_love_Jadyn/2025-01-11/IMG_2993 2.jpeg" },
+    { "kind": "image", "s3Key": "I_love_Jadyn/2025-01-11/IMG_2994 2.jpeg" },
+    { "kind": "image", "s3Key": "I_love_Jadyn/2025-01-11/IMG_2996 2.jpeg" },
+    { "kind": "image", "s3Key": "I_love_Jadyn/2025-01-11/IMG_2997 2.jpeg" },
+    { "kind": "image", "s3Key": "I_love_Jadyn/2025-01-11/IMG_2998 2.jpeg" },
+    { "kind": "image", "s3Key": "I_love_Jadyn/2025-01-11/IMG_3001 2.jpeg" },
+    { "kind": "image", "s3Key": "I_love_Jadyn/2025-01-11/IMG_3002 2.jpeg" },
+    { "kind": "image", "s3Key": "I_love_Jadyn/2025-01-11/IMG_3006 2.jpeg" },
+
+    { "kind": "image", "s3Key": "I_love_Jadyn/2025-01-11/IMG_6359.jpeg" },
+    { "kind": "image", "s3Key": "I_love_Jadyn/2025-01-11/IMG_6360.jpeg" },
+    { "kind": "image", "s3Key": "I_love_Jadyn/2025-01-11/IMG_6361.jpeg" },
+    { "kind": "image", "s3Key": "I_love_Jadyn/2025-01-11/IMG_6362.jpeg" },
+    { "kind": "image", "s3Key": "I_love_Jadyn/2025-01-11/IMG_6364.jpeg" },
+    { "kind": "image", "s3Key": "I_love_Jadyn/2025-01-11/IMG_6365.jpeg" },
+    { "kind": "image", "s3Key": "I_love_Jadyn/2025-01-11/IMG_6366.jpeg" },
+    { "kind": "image", "s3Key": "I_love_Jadyn/2025-01-11/IMG_6367.jpeg" },
+    { "kind": "image", "s3Key": "I_love_Jadyn/2025-01-11/IMG_6368.jpeg" },
+    { "kind": "image", "s3Key": "I_love_Jadyn/2025-01-11/IMG_6369.jpeg" },
+    { "kind": "image", "s3Key": "I_love_Jadyn/2025-01-11/IMG_6370.jpeg" },
+    { "kind": "image", "s3Key": "I_love_Jadyn/2025-01-11/IMG_6371.jpeg" }
+  ]
+},
+{
+  "id": "m-2025-01-14",
+  "title": "Photoshoot You didn't want to do",
+  "date": "2025-01-14",
+  "location": "",
+  "description": "I was like take some flicks with me. You absolutely didn't want to but still did anyways. I look back at these often because it was fun.",
+  "photos": [
+    {
+      "kind": "video",
+      "s3Key": "I_love_Jadyn/2025-01-14/B8209BDE-6EB1-494B-9A53-C7A0C5EBE4E8.MOV",
+      "posterS3Key": "I_love_Jadyn/2025-01-14/IMG_6405.jpeg"
+    },
+    { "kind": "image", "s3Key": "I_love_Jadyn/2025-01-14/IMG_6401.jpeg" },
+    { "kind": "image", "s3Key": "I_love_Jadyn/2025-01-14/IMG_6405.jpeg" },
+    { "kind": "image", "s3Key": "I_love_Jadyn/2025-01-14/IMG_6406.jpeg" },
+    { "kind": "image", "s3Key": "I_love_Jadyn/2025-01-14/IMG_6407.jpeg" },
+    { "kind": "image", "s3Key": "I_love_Jadyn/2025-01-14/IMG_6408.jpeg" },
+    { "kind": "image", "s3Key": "I_love_Jadyn/2025-01-14/IMG_6409.jpeg" },
+    { "kind": "image", "s3Key": "I_love_Jadyn/2025-01-14/IMG_6410.jpeg" },
+    { "kind": "image", "s3Key": "I_love_Jadyn/2025-01-14/IMG_6411.jpeg" }
+  ]
+},
+{
+  "id": "m-2025-01-20",
+  "title": "FLOWERSSSS",
+  "date": "2025-01-20",
+  "location": "",
+  "description": "A day packed with moments. I bought you flowers for the very first time. We went on a hangout(not a date). I remember this day so vividly because I was so happy to get you flowers.",
+  "photos": [
+    {
+      "kind": "video",
+      "s3Key": "I_love_Jadyn/2025-01-20/7AE8B8D0-651C-4F1C-BA5F-EDE58463BC3B.MP4",
+      "posterS3Key": "I_love_Jadyn/2025-01-20/IMG_6497.jpeg"
+    },
+    {
+      "kind": "video",
+      "s3Key": "I_love_Jadyn/2025-01-20/IMG_3328.MOV",
+      "posterS3Key": "I_love_Jadyn/2025-01-20/IMG_3327.jpeg"
+    },
+
+    { "kind": "image", "s3Key": "I_love_Jadyn/2025-01-20/IMG_3321.jpeg" },
+    { "kind": "image", "s3Key": "I_love_Jadyn/2025-01-20/IMG_3327.jpeg" },
+    { "kind": "image", "s3Key": "I_love_Jadyn/2025-01-20/IMG_3331.jpeg" },
+    { "kind": "image", "s3Key": "I_love_Jadyn/2025-01-20/IMG_3332.jpeg" },
+    { "kind": "image", "s3Key": "I_love_Jadyn/2025-01-20/IMG_3345.jpeg" },
+    { "kind": "image", "s3Key": "I_love_Jadyn/2025-01-20/IMG_3347.jpeg" },
+
+    { "kind": "image", "s3Key": "I_love_Jadyn/2025-01-20/IMG_6481.jpeg" },
+    { "kind": "image", "s3Key": "I_love_Jadyn/2025-01-20/IMG_6482.jpeg" },
+    { "kind": "image", "s3Key": "I_love_Jadyn/2025-01-20/IMG_6484.jpeg" },
+    { "kind": "image", "s3Key": "I_love_Jadyn/2025-01-20/IMG_6485.jpeg" },
+    { "kind": "image", "s3Key": "I_love_Jadyn/2025-01-20/IMG_6486.jpeg" },
+    { "kind": "image", "s3Key": "I_love_Jadyn/2025-01-20/IMG_6488.jpeg" },
+    { "kind": "image", "s3Key": "I_love_Jadyn/2025-01-20/IMG_6489.jpeg" },
+    { "kind": "image", "s3Key": "I_love_Jadyn/2025-01-20/IMG_6490.jpeg" },
+    { "kind": "image", "s3Key": "I_love_Jadyn/2025-01-20/IMG_6491.jpeg" },
+    { "kind": "image", "s3Key": "I_love_Jadyn/2025-01-20/IMG_6492.jpeg" },
+    { "kind": "image", "s3Key": "I_love_Jadyn/2025-01-20/IMG_6493.jpeg" },
+    { "kind": "image", "s3Key": "I_love_Jadyn/2025-01-20/IMG_6494.jpeg" },
+    { "kind": "image", "s3Key": "I_love_Jadyn/2025-01-20/IMG_6495.jpeg" },
+    { "kind": "image", "s3Key": "I_love_Jadyn/2025-01-20/IMG_6496.jpeg" },
+    { "kind": "image", "s3Key": "I_love_Jadyn/2025-01-20/IMG_6497.jpeg" }
+  ]
+},
+{
+  "id": "m-2025-02-01",
+  "title": "February Begins",
+  "date": "2025-02-01",
+  "location": "",
+  "description": "Starting February together. A lot of pictures, from pottery to making homemade pizza. I definitely loved this day. ",
+  "photos": [
+    {
+      "kind": "video",
+      "s3Key": "I_love_Jadyn/2025-02-01/IMG_3672.MOV",
+      "posterS3Key": "I_love_Jadyn/2025-02-01/IMG_3660.jpeg"
+    },
+
+    { "kind": "image", "s3Key": "I_love_Jadyn/2025-02-01/IMG_3660.jpeg" },
+    { "kind": "image", "s3Key": "I_love_Jadyn/2025-02-01/IMG_3662.jpeg" },
+    { "kind": "image", "s3Key": "I_love_Jadyn/2025-02-01/IMG_3663.jpeg" },
+    { "kind": "image", "s3Key": "I_love_Jadyn/2025-02-01/IMG_3666.jpeg" },
+    { "kind": "image", "s3Key": "I_love_Jadyn/2025-02-01/IMG_3667.jpeg" },
+
+    { "kind": "image", "s3Key": "I_love_Jadyn/2025-02-01/IMG_6650.jpeg" },
+    { "kind": "image", "s3Key": "I_love_Jadyn/2025-02-01/IMG_6652.jpeg" },
+    { "kind": "image", "s3Key": "I_love_Jadyn/2025-02-01/IMG_6655.jpeg" },
+    { "kind": "image", "s3Key": "I_love_Jadyn/2025-02-01/IMG_6656.jpeg" },
+    { "kind": "image", "s3Key": "I_love_Jadyn/2025-02-01/IMG_6659.jpeg" },
+    { "kind": "image", "s3Key": "I_love_Jadyn/2025-02-01/IMG_6660.jpeg" },
+    { "kind": "image", "s3Key": "I_love_Jadyn/2025-02-01/IMG_6661.jpeg" },
+    { "kind": "image", "s3Key": "I_love_Jadyn/2025-02-01/IMG_6666.jpeg" },
+    { "kind": "image", "s3Key": "I_love_Jadyn/2025-02-01/IMG_6669.jpeg" },
+    { "kind": "image", "s3Key": "I_love_Jadyn/2025-02-01/IMG_6670.jpeg" },
+    { "kind": "image", "s3Key": "I_love_Jadyn/2025-02-01/IMG_6671.jpeg" },
+    { "kind": "image", "s3Key": "I_love_Jadyn/2025-02-01/IMG_6672.jpeg" },
+    { "kind": "image", "s3Key": "I_love_Jadyn/2025-02-01/IMG_6673.jpeg" },
+    { "kind": "image", "s3Key": "I_love_Jadyn/2025-02-01/IMG_6674.jpeg" }
+  ]
+},
+{
+  "id": "2025-02-04",
+  "title": "Dancing in the Rain",
+  "date": "2025-02-04",
+  "location": "Santa Cruz",
+  "description": "A item off the bucket list.",
+  "photos": [
+    {
+      "kind": "image",
+      "s3Key": "I_love_Jadyn/2025-02-04/IMG_2089.jpeg"
+    },
+    {
+      "kind": "video",
+      "s3Key": "I_love_Jadyn/2025-02-04/A2DAB580-62AB-422D-9864-22BF119061F4.MOV"
+    }
+  ]
+},
+{
+  "id": "2025-02-11",
+  "title": "Eyebrows",
+  "date": "2025-02-11",
+  "location": "Santa Cruz",
+  "description": "You absolutely ate down on my eyebrows. This was the first memory of when you started getting comfy picking at my face. I still don't mind to this day.",
+  "photos": [
+    { "kind": "image", "s3Key": "I_love_Jadyn/2025-02-11/IMG_0641.jpeg" },
+    { "kind": "image", "s3Key": "I_love_Jadyn/2025-02-11/IMG_4097.jpeg" },
+    { "kind": "image", "s3Key": "I_love_Jadyn/2025-02-11/IMG_4100.jpeg" },
+    { "kind": "image", "s3Key": "I_love_Jadyn/2025-02-11/IMG_4101.jpeg" },
+    { "kind": "image", "s3Key": "I_love_Jadyn/2025-02-11/IMG_4103.jpeg" },
+    { "kind": "image", "s3Key": "I_love_Jadyn/2025-02-11/IMG_6836.jpeg" },
+    { "kind": "image", "s3Key": "I_love_Jadyn/2025-02-11/IMG_6840.jpeg" },
+
+    { "kind": "video", "s3Key": "I_love_Jadyn/2025-02-11/43E90EE2-050D-467F-951E-4DABDA7D4376.MOV" },
+    { "kind": "video", "s3Key": "I_love_Jadyn/2025-02-11/463F243A-5738-4B67-B74C-EC26FBF405FE.MP4" },
+    { "kind": "video", "s3Key": "I_love_Jadyn/2025-02-11/70D0FA34-5700-4D99-B224-578BF65D923B.MOV" },
+    { "kind": "video", "s3Key": "I_love_Jadyn/2025-02-11/7E72FC4C-F2B4-48E9-9FD1-FA8CD6451091.MOV" },
+    { "kind": "video", "s3Key": "I_love_Jadyn/2025-02-11/B33E91D2-C034-4883-9926-10C6B49145ED.MP4" },
+    { "kind": "video", "s3Key": "I_love_Jadyn/2025-02-11/IMG_6838.MOV" }
+  ]
+},
+{
+  "id": "2025-02-14",
+  "title": "Valentine’s Day",
+  "date": "2025-02-14",
+  "location": "Santa Cruz",
+  "description": "Valentine’s Day — a day full of love, warmth, and quiet moments that meant everything to me.",
+  "photos": [
+    { "kind": "image", "s3Key": "I_love_Jadyn/2025-02-14/IMG_0639.jpeg" },
+    { "kind": "image", "s3Key": "I_love_Jadyn/2025-02-14/IMG_0651.jpeg" },
+    { "kind": "image", "s3Key": "I_love_Jadyn/2025-02-14/IMG_4231.jpeg" },
+    { "kind": "image", "s3Key": "I_love_Jadyn/2025-02-14/IMG_4232.jpeg" },
+    { "kind": "image", "s3Key": "I_love_Jadyn/2025-02-14/IMG_4234.jpeg" },
+    { "kind": "image", "s3Key": "I_love_Jadyn/2025-02-14/IMG_4236.jpeg" },
+    { "kind": "image", "s3Key": "I_love_Jadyn/2025-02-14/IMG_4237.jpeg" },
+    { "kind": "image", "s3Key": "I_love_Jadyn/2025-02-14/IMG_4251.jpeg" },
+    { "kind": "image", "s3Key": "I_love_Jadyn/2025-02-14/IMG_4291.jpeg" },
+    { "kind": "image", "s3Key": "I_love_Jadyn/2025-02-14/IMG_4292.jpeg" },
+
+    { "kind": "image", "s3Key": "I_love_Jadyn/2025-02-14/IMG_6882.jpeg" },
+    { "kind": "image", "s3Key": "I_love_Jadyn/2025-02-14/IMG_6885.jpeg" },
+    { "kind": "image", "s3Key": "I_love_Jadyn/2025-02-14/IMG_6887.jpeg" },
+    { "kind": "image", "s3Key": "I_love_Jadyn/2025-02-14/IMG_6889.jpeg" },
+    { "kind": "image", "s3Key": "I_love_Jadyn/2025-02-14/IMG_6894.jpeg" },
+    { "kind": "image", "s3Key": "I_love_Jadyn/2025-02-14/IMG_6896.jpeg" },
+    { "kind": "image", "s3Key": "I_love_Jadyn/2025-02-14/IMG_6897.jpeg" },
+    { "kind": "image", "s3Key": "I_love_Jadyn/2025-02-14/IMG_6899.jpeg" },
+    { "kind": "image", "s3Key": "I_love_Jadyn/2025-02-14/IMG_6901.jpeg" },
+    { "kind": "image", "s3Key": "I_love_Jadyn/2025-02-14/IMG_6906.jpeg" },
+    { "kind": "image", "s3Key": "I_love_Jadyn/2025-02-14/IMG_6907.jpeg" },
+    { "kind": "image", "s3Key": "I_love_Jadyn/2025-02-14/IMG_6919.jpeg" },
+    { "kind": "image", "s3Key": "I_love_Jadyn/2025-02-14/IMG_6920.jpeg" },
+    { "kind": "image", "s3Key": "I_love_Jadyn/2025-02-14/IMG_6923.jpeg" },
+    { "kind": "image", "s3Key": "I_love_Jadyn/2025-02-14/IMG_6927.jpeg" },
+    { "kind": "image", "s3Key": "I_love_Jadyn/2025-02-14/IMG_6928.jpeg" },
+
+    { "kind": "video", "s3Key": "I_love_Jadyn/2025-02-14/2E75076E-F497-42E6-91A8-DC36330AEE5E.MOV" }
+  ]
+},
+
+{
+  "id": "2025-02-17",
+  "title": "Soft Days",
+  "date": "2025-02-17",
+  "location": "Santa Cruz",
+  "description": "Date night.",
+  "photos": [
+    { "kind": "image", "s3Key": "I_love_Jadyn/2025-02-17/IMG_6997.jpeg" },
+    { "kind": "video", "s3Key": "I_love_Jadyn/2025-02-17/filtered-D99FFF04-44FD-459D-93BD-1398CC13195E.MP4" },
+    { "kind": "image", "s3Key": "I_love_Jadyn/2025-02-17/IMG_0664.jpeg" },
+    { "kind": "image", "s3Key": "I_love_Jadyn/2025-02-17/IMG_0672.jpeg" },
+    { "kind": "image", "s3Key": "I_love_Jadyn/2025-02-17/IMG_0675.jpeg" },
+    { "kind": "image", "s3Key": "I_love_Jadyn/2025-02-17/IMG_0677.jpeg" },
+    { "kind": "video", "s3Key": "I_love_Jadyn/2025-02-17/IMG_4478.MP4" },
+    { "kind": "image", "s3Key": "I_love_Jadyn/2025-02-17/IMG_6979.jpeg" },
+    { "kind": "image", "s3Key": "I_love_Jadyn/2025-02-17/IMG_6984.jpeg" },
+    { "kind": "image", "s3Key": "I_love_Jadyn/2025-02-17/IMG_6988.jpeg" },
+    { "kind": "image", "s3Key": "I_love_Jadyn/2025-02-17/IMG_6990.jpeg" },
+    { "kind": "image", "s3Key": "I_love_Jadyn/2025-02-17/IMG_6992.jpeg" },
+    { "kind": "image", "s3Key": "I_love_Jadyn/2025-02-17/IMG_7005.jpeg" },
+    { "kind": "image", "s3Key": "I_love_Jadyn/2025-02-17/IMG_7008.jpeg" }
+  ]
+},
+{
+  "id": "2025-02-20",
+  "title": "3am Shenanigans ",
+  "date": "2025-02-20",
+  "location": "Santa Cruz",
+  "description": "You came back from the club to me locking in for my physics exam. I aced it!",
+  "photos": [
+    { "kind": "image", "s3Key": "I_love_Jadyn/2025-02-20/IMG_0712.jpeg" },
+    { "kind": "video", "s3Key": "I_love_Jadyn/2025-02-20/0014C469-3C99-498D-BC01-36CE70E03633.MOV" },
+    { "kind": "video", "s3Key": "I_love_Jadyn/2025-02-20/4A273DD9-C57E-4580-ABD8-32BE59C5CBAD.MP4" },
+    { "kind": "image", "s3Key": "I_love_Jadyn/2025-02-20/IMG_0697.jpeg" },
+    { "kind": "image", "s3Key": "I_love_Jadyn/2025-02-20/IMG_0714.jpeg" },
+    { "kind": "video", "s3Key": "I_love_Jadyn/2025-02-20/IMG_4587.MP4" },
+    { "kind": "video", "s3Key": "I_love_Jadyn/2025-02-20/IMG_7067.MOV" },
+    { "kind": "video", "s3Key": "I_love_Jadyn/2025-02-20/IMG_7069.MOV" },
+    { "kind": "image", "s3Key": "I_love_Jadyn/2025-02-20/IMG_7070.jpeg" },
+    { "kind": "image", "s3Key": "I_love_Jadyn/2025-02-20/IMG_7071.jpeg" },
+    { "kind": "image", "s3Key": "I_love_Jadyn/2025-02-20/IMG_7079.jpeg" },
+    { "kind": "image", "s3Key": "I_love_Jadyn/2025-02-20/IMG_7080.jpeg" },
+    { "kind": "image", "s3Key": "I_love_Jadyn/2025-02-20/IMG_7081.jpeg" }
+  ]
+},
+{
+    "id": "2025-02-22",
+    "title": "The Day I Asked You",
+    "date": "2025-02-22",
+    "location": "Santa Cruz",
+    "description": "The day I asked you to be my girlfriend. One of the most important days of my life — choosing you, officially.",
+    "photos": [
+      { "kind": "image", "s3Key": "I_love_Jadyn/2025-02-22/IMG_7110.jpeg" },
+      { "kind": "image", "s3Key": "I_love_Jadyn/2025-02-22/IMG_0745.jpeg" },
+      { "kind": "image", "s3Key": "I_love_Jadyn/2025-02-22/IMG_5188.jpeg" },
+      { "kind": "image", "s3Key": "I_love_Jadyn/2025-02-22/IMG_5191.jpeg" },
+      { "kind": "image", "s3Key": "I_love_Jadyn/2025-02-22/IMG_5195.jpeg" },
+      { "kind": "image", "s3Key": "I_love_Jadyn/2025-02-22/IMG_7111.jpeg" },
+      { "kind": "image", "s3Key": "I_love_Jadyn/2025-02-22/IMG_7114.jpeg" },
+      { "kind": "image", "s3Key": "I_love_Jadyn/2025-02-22/IMG_7118.jpeg" },
+      { "kind": "image", "s3Key": "I_love_Jadyn/2025-02-22/IMG_7120.jpeg" },
+
+      { "kind": "video", "s3Key": "I_love_Jadyn/2025-02-22/IMG_4807.MP4" },
+      { "kind": "video", "s3Key": "I_love_Jadyn/2025-02-22/ScreenRecording_02-23-2025 16-18-36_1.mov" }
+    ]
+  },
+
+  {
+    "id": "2025-02-27",
+    "title": "My First Letter",
+    "date": "2025-02-27",
+    "location": "Santa Cruz",
+    "description": "The first letter you wrote for me.",
+    "photos": [
+      { "kind": "image", "s3Key": "I_love_Jadyn/2025-02-27/IMG_7218.jpeg" },
+      { "kind": "image", "s3Key": "I_love_Jadyn/2025-02-27/IMG_7219.jpeg" },
+      { "kind": "image", "s3Key": "I_love_Jadyn/2025-02-27/IMG_7220.jpeg" },
+
+      { "kind": "video", "s3Key": "I_love_Jadyn/2025-02-27/8044E827-89D5-47D5-9856-2300ACF5BEE0.MP4" }
+    ]
+  },
+
+  {
+    "id": "2025-03-08",
+    "title": "Letting Go",
+    "date": "2025-03-08",
+    "location": "Santa Cruz",
+    "description": "Picnic date where we let the things that bothered us go.",
+    "photos": [
+      { "kind": "image", "s3Key": "I_love_Jadyn/2025-03-08/IMG_6653.jpeg" },
+      { "kind": "image", "s3Key": "I_love_Jadyn/2025-03-08/IMG_6298.jpeg" },
+      { "kind": "image", "s3Key": "I_love_Jadyn/2025-03-08/IMG_6498.jpeg" },
+      { "kind": "image", "s3Key": "I_love_Jadyn/2025-03-08/IMG_6501.jpeg" },
+      { "kind": "image", "s3Key": "I_love_Jadyn/2025-03-08/IMG_6509.jpeg" },
+      { "kind": "image", "s3Key": "I_love_Jadyn/2025-03-08/IMG_6529.jpeg" },
+      { "kind": "image", "s3Key": "I_love_Jadyn/2025-03-08/IMG_6654.jpeg" },
+      { "kind": "image", "s3Key": "I_love_Jadyn/2025-03-08/IMG_6655.jpeg" },
+      { "kind": "image", "s3Key": "I_love_Jadyn/2025-03-08/IMG_7385.jpeg" },
+      { "kind": "image", "s3Key": "I_love_Jadyn/2025-03-08/IMG_7386.jpeg" },
+      { "kind": "image", "s3Key": "I_love_Jadyn/2025-03-08/IMG_7387.jpeg" },
+      { "kind": "image", "s3Key": "I_love_Jadyn/2025-03-08/IMG_7392.jpeg" },
+      { "kind": "image", "s3Key": "I_love_Jadyn/2025-03-08/IMG_7394.jpeg" },
+      { "kind": "image", "s3Key": "I_love_Jadyn/2025-03-08/IMG_7400.jpeg" },
+
+      { "kind": "video", "s3Key": "I_love_Jadyn/2025-03-08/1f77a01914c74585b328e9325c141ea5.MOV" },
+      { "kind": "video", "s3Key": "I_love_Jadyn/2025-03-08/IMG_6505.MOV" },
+      { "kind": "video", "s3Key": "I_love_Jadyn/2025-03-08/IMG_6506.MOV" },
+      { "kind": "video", "s3Key": "I_love_Jadyn/2025-03-08/IMG_6507.MOV" },
+      { "kind": "video", "s3Key": "I_love_Jadyn/2025-03-08/IMG_7391.MOV" }
+    ]
+  },
+  {
+  "id": "2025-03-19",
+  "title": "Meeting Your Family",
+  "date": "2025-03-19",
+  "location": "Your Home",
+  "description": "The first time I met your family and visited your home. Such a special trip — full of nerves, laughter, and moments that made everything feel even more real. I loved getting to see where you come from.",
+  "photos": [
+    { "kind": "image", "s3Key": "I_love_Jadyn/2025-03-19/IMG_7621.jpeg" },
+    { "kind": "image", "s3Key": "I_love_Jadyn/2025-03-19/IMG_0988.jpeg" },
+    { "kind": "image", "s3Key": "I_love_Jadyn/2025-03-19/IMG_0992.jpeg" },
+    { "kind": "image", "s3Key": "I_love_Jadyn/2025-03-19/IMG_0996.jpeg" },
+    { "kind": "image", "s3Key": "I_love_Jadyn/2025-03-19/IMG_0998.jpeg" },
+    { "kind": "image", "s3Key": "I_love_Jadyn/2025-03-19/IMG_7214.jpeg" },
+    { "kind": "image", "s3Key": "I_love_Jadyn/2025-03-19/IMG_7445.jpeg" },
+    { "kind": "image", "s3Key": "I_love_Jadyn/2025-03-19/IMG_7447.jpeg" },
+    { "kind": "image", "s3Key": "I_love_Jadyn/2025-03-19/IMG_7531.jpeg" },
+    { "kind": "image", "s3Key": "I_love_Jadyn/2025-03-19/IMG_7533.jpeg" },
+    { "kind": "image", "s3Key": "I_love_Jadyn/2025-03-19/IMG_7534.jpeg" },
+    { "kind": "image", "s3Key": "I_love_Jadyn/2025-03-19/IMG_7543.jpeg" },
+    { "kind": "image", "s3Key": "I_love_Jadyn/2025-03-19/IMG_7544.jpeg" },
+    { "kind": "image", "s3Key": "I_love_Jadyn/2025-03-19/IMG_7548.jpeg" },
+    { "kind": "image", "s3Key": "I_love_Jadyn/2025-03-19/IMG_7555.jpeg" },
+    { "kind": "image", "s3Key": "I_love_Jadyn/2025-03-19/IMG_7556.jpeg" },
+    { "kind": "image", "s3Key": "I_love_Jadyn/2025-03-19/IMG_7558.jpeg" },
+    { "kind": "image", "s3Key": "I_love_Jadyn/2025-03-19/IMG_7566.jpeg" },
+    { "kind": "image", "s3Key": "I_love_Jadyn/2025-03-19/IMG_7572.jpeg" },
+    { "kind": "image", "s3Key": "I_love_Jadyn/2025-03-19/IMG_7589.jpeg" },
+    { "kind": "image", "s3Key": "I_love_Jadyn/2025-03-19/IMG_7596.jpeg" },
+    { "kind": "image", "s3Key": "I_love_Jadyn/2025-03-19/IMG_7609.jpeg" },
+    { "kind": "image", "s3Key": "I_love_Jadyn/2025-03-19/IMG_7610.jpeg" },
+    
+    { "kind": "image", "s3Key": "I_love_Jadyn/2025-03-19/IMG_7626.jpeg" },
+    { "kind": "image", "s3Key": "I_love_Jadyn/2025-03-19/IMG_7628.jpeg" },
+    { "kind": "image", "s3Key": "I_love_Jadyn/2025-03-19/IMG_7631.jpeg" },
+    { "kind": "image", "s3Key": "I_love_Jadyn/2025-03-19/IMG_7635.jpeg" },
+    { "kind": "image", "s3Key": "I_love_Jadyn/2025-03-19/IMG_7640.jpeg" },
+    { "kind": "image", "s3Key": "I_love_Jadyn/2025-03-19/IMG_7645.jpeg" },
+    { "kind": "image", "s3Key": "I_love_Jadyn/2025-03-19/IMG_7659.jpeg" },
+    { "kind": "image", "s3Key": "I_love_Jadyn/2025-03-19/IMG_7669.jpeg" },
+    { "kind": "image", "s3Key": "I_love_Jadyn/2025-03-19/IMG_7689.jpeg" },
+    { "kind": "image", "s3Key": "I_love_Jadyn/2025-03-19/IMG_7693.jpeg" },
+    { "kind": "image", "s3Key": "I_love_Jadyn/2025-03-19/IMG_7701.jpeg" },
+    { "kind": "image", "s3Key": "I_love_Jadyn/2025-03-19/IMG_7848.jpeg" },
+    { "kind": "image", "s3Key": "I_love_Jadyn/2025-03-19/IMG_7858.jpeg" },
+
+    { "kind": "video", "s3Key": "I_love_Jadyn/2025-03-19/152BB7AB-D304-421B-974A-EE18CECBC94F.MP4" },
+    { "kind": "video", "s3Key": "I_love_Jadyn/2025-03-19/1851075D-5577-4C04-B814-C8EFE408C557.MP4" },
+    { "kind": "video", "s3Key": "I_love_Jadyn/2025-03-19/37DCF0B7-B7ED-4730-A093-8A597A0D88C9.MP4" },
+    { "kind": "video", "s3Key": "I_love_Jadyn/2025-03-19/5FF6DD51-8092-499C-85CE-D956DF548357.MOV" },
+    { "kind": "video", "s3Key": "I_love_Jadyn/2025-03-19/6FDF8A61-38A9-4CEB-ABA3-0D5893687FD7.MP4" },
+    { "kind": "video", "s3Key": "I_love_Jadyn/2025-03-19/A1FACFED-B1DD-4E49-8419-5D28DEFC38CF.MP4" },
+    { "kind": "video", "s3Key": "I_love_Jadyn/2025-03-19/C0571458-008A-4365-98D9-45B472C56863.MP4" },
+    { "kind": "video", "s3Key": "I_love_Jadyn/2025-03-19/F60C1D07-8572-452B-BDCF-9E51B2C78991.MOV" },
+    { "kind": "video", "s3Key": "I_love_Jadyn/2025-03-19/FCA76A44-B0FB-4A5E-9D2B-1F57D3415F4C.MP4" },
+    { "kind": "video", "s3Key": "I_love_Jadyn/2025-03-19/IMG_7435.MP4" },
+    { "kind": "video", "s3Key": "I_love_Jadyn/2025-03-19/IMG_7539.MOV" },
+    { "kind": "video", "s3Key": "I_love_Jadyn/2025-03-19/IMG_7547.MOV" },
+    { "kind": "video", "s3Key": "I_love_Jadyn/2025-03-19/IMG_7661.MOV" },
+    { "kind": "video", "s3Key": "I_love_Jadyn/2025-03-19/IMG_7677.MOV" },
+    { "kind": "video", "s3Key": "I_love_Jadyn/2025-03-19/IMG_7678.MOV" }
+  ]
+},
+{
+    "id": "2025-04-02",
+    "title": "Locking In & Goofing Around",
+    "date": "2025-04-02",
+    "location": "",
+    "description": "A fun day of locking in, being productive, and still finding time to goof around together. One of those days that felt easy and comfortable.",
+    "photos": [
+      { "kind": "image", "s3Key": "I_love_Jadyn/2025-04-02/IMG_7971 2.jpeg" },
+      { "kind": "image", "s3Key": "I_love_Jadyn/2025-04-02/IMG_7975 2.jpeg" },
+      { "kind": "image", "s3Key": "I_love_Jadyn/2025-04-02/IMG_7977 2.jpeg" },
+      { "kind": "image", "s3Key": "I_love_Jadyn/2025-04-02/IMG_7980 2.jpeg" },
+      { "kind": "image", "s3Key": "I_love_Jadyn/2025-04-02/IMG_7987 2.jpeg" },
+      { "kind": "image", "s3Key": "I_love_Jadyn/2025-04-02/IMG_7991 3.jpeg" },
+      { "kind": "image", "s3Key": "I_love_Jadyn/2025-04-02/IMG_7991 4.jpeg" },
+
+      { "kind": "video", "s3Key": "I_love_Jadyn/2025-04-02/18598D94-6785-4316-8BC3-B7AEF9F5CB6D 2.MP4" },
+      { "kind": "video", "s3Key": "I_love_Jadyn/2025-04-02/4D577AF5-3BF5-42D4-8BDC-5DF194E8AAE0 2.MP4" },
+      { "kind": "video", "s3Key": "I_love_Jadyn/2025-04-02/copy_9620D412-36F3-429E-91F6-6671A0926C66 2.MOV" },
+      { "kind": "video", "s3Key": "I_love_Jadyn/2025-04-02/FFA0CC92-C41E-4A84-81F4-88EB70942E03 2.MP4" }
+    ]
+  },
+
+  {
+    "id": "2025-04-04",
+    "title": "First Time Doing Your Nails",
+    "date": "2025-04-04",
+    "location": "",
+    "description": "The first time I ever did your nails. I still don’t think I did that great, but you let me try anyway — and that meant everything.",
+    "photos": [
+      { "kind": "image", "s3Key": "I_love_Jadyn/2025-04-04/IMG_8053 2.jpeg" },
+      { "kind": "image", "s3Key": "I_love_Jadyn/2025-04-04/IMG_8053.jpeg" },
+      { "kind": "image", "s3Key": "I_love_Jadyn/2025-04-04/IMG_8059.jpeg" },
+      { "kind": "image", "s3Key": "I_love_Jadyn/2025-04-04/IMG_8060.jpeg" },
+
+      { "kind": "video", "s3Key": "I_love_Jadyn/2025-04-04/IMG_7984.MOV" }
+    ]
+  },
+
+  {
+    "id": "2025-04-06",
+    "title": "Walks & Laying in the Grass",
+    "date": "2025-04-06",
+    "location": "",
+    "description": "We went on a walk and laid in the grass together. You looked so beautiful that day — one of those quiet moments I’ll never forget.",
+    "photos": [
+      { "kind": "image", "s3Key": "I_love_Jadyn/2025-04-06/IMG_1068.jpeg" },
+      { "kind": "image", "s3Key": "I_love_Jadyn/2025-04-06/IMG_1067.jpeg" },
+      { "kind": "image", "s3Key": "I_love_Jadyn/2025-04-06/IMG_1078.jpeg" },
+      { "kind": "image", "s3Key": "I_love_Jadyn/2025-04-06/IMG_8057.jpeg" },
+      { "kind": "image", "s3Key": "I_love_Jadyn/2025-04-06/IMG_8060.jpeg" },
+      { "kind": "image", "s3Key": "I_love_Jadyn/2025-04-06/IMG_8066.jpeg" },
+      { "kind": "image", "s3Key": "I_love_Jadyn/2025-04-06/IMG_8068.jpeg" },
+      { "kind": "image", "s3Key": "I_love_Jadyn/2025-04-06/IMG_8112.jpeg" },
+      { "kind": "image", "s3Key": "I_love_Jadyn/2025-04-06/IMG_8219.jpeg" }
+    ]
+  },
+  
+  {
+    "id": "2025-04-07",
+    "title": "Koi Pond & the Hut",
+    "date": "2025-04-07",
+    "location": "Campus",
+    "description": "We went to the koi pond on campus and found a little man-made hut. It was a hard day emotionally, but we still made something meaningful out of it together.",
+    "photos": [
+      { "kind": "image", "s3Key": "I_love_Jadyn/2025-04-07/IMG_8115.jpeg" },
+      { "kind": "image", "s3Key": "I_love_Jadyn/2025-04-07/IMG_8117.jpeg" },
+      { "kind": "image", "s3Key": "I_love_Jadyn/2025-04-07/IMG_8122.jpeg" },
+      { "kind": "image", "s3Key": "I_love_Jadyn/2025-04-07/IMG_8124.jpeg" },
+      { "kind": "image", "s3Key": "I_love_Jadyn/2025-04-07/IMG_8127.jpeg" },
+      { "kind": "image", "s3Key": "I_love_Jadyn/2025-04-07/IMG_8130.jpeg" }
+    ]
+  },
+
+  {
+    "id": "2025-04-11",
+    "title": "Clara’s Birthday",
+    "date": "2025-04-11",
+    "location": "",
+    "description": "It was Clara’s birthday. You looked absolutely amazing. Marissa needed me that night, and I still feel bad because I wanted to give you all my attention and make it a perfect night for you.",
+    "photos": [
+      { "kind": "image", "s3Key": "I_love_Jadyn/2025-04-11/IMG_8247.jpeg" },
+      { "kind": "image", "s3Key": "I_love_Jadyn/2025-04-11/IMG_9457.jpeg" },
+      { "kind": "image", "s3Key": "I_love_Jadyn/2025-04-11/IMG_9511.jpeg" },
+      { "kind": "image", "s3Key": "I_love_Jadyn/2025-04-11/IMG_9515.jpeg" },
+      { "kind": "video", "s3Key": "I_love_Jadyn/2025-04-11/IMG_9510.MOV" }
+    ]
+  },
+
+  {
+    "id": "2025-04-15",
+    "title": "Betty’s Noodles Date",
+    "date": "2025-04-15",
+    "location": "Betty’s Noodles",
+    "description": "We went on a date to Betty’s Noodles. I also did a full photo shoot of you just because — one of my favorite things to do.",
+    "photos": [
+      { "kind": "image", "s3Key": "I_love_Jadyn/2025-04-15/IMG_8383.jpeg" },
+      { "kind": "image", "s3Key": "I_love_Jadyn/2025-04-15/IMG_8385.jpeg" },
+      { "kind": "image", "s3Key": "I_love_Jadyn/2025-04-15/IMG_8386.jpeg" },
+      { "kind": "image", "s3Key": "I_love_Jadyn/2025-04-15/IMG_8395.jpeg" },
+      { "kind": "image", "s3Key": "I_love_Jadyn/2025-04-15/IMG_8408.jpeg" },
+      { "kind": "image", "s3Key": "I_love_Jadyn/2025-04-15/IMG_8413.jpeg" },
+      { "kind": "image", "s3Key": "I_love_Jadyn/2025-04-15/IMG_8414.jpeg" },
+      { "kind": "image", "s3Key": "I_love_Jadyn/2025-04-15/IMG_8415.jpeg" },
+      { "kind": "image", "s3Key": "I_love_Jadyn/2025-04-15/IMG_8423.jpeg" },
+      { "kind": "image", "s3Key": "I_love_Jadyn/2025-04-15/IMG_8434.jpeg" },
+      { "kind": "image", "s3Key": "I_love_Jadyn/2025-04-15/IMG_8438.jpeg" },
+      { "kind": "video", "s3Key": "I_love_Jadyn/2025-04-15/IMG_8440.MOV" }
+    ]
+  },
+
+  {
+    "id": "2025-04-18",
+    "title": "Easter & the Cutie Basket",
+    "date": "2025-04-18",
+    "location": "Your Home",
+    "description": "Easter time. I surprised you with a cutie basket and we went to your home to celebrate. This was when I really started to feel like I had another family.",
+    "photos": [
+      { "kind": "image", "s3Key": "I_love_Jadyn/2025-04-18/FullSizeRender.jpeg" },
+      { "kind": "image", "s3Key": "I_love_Jadyn/2025-04-18/IMG_1185.jpeg" },
+      { "kind": "image", "s3Key": "I_love_Jadyn/2025-04-18/IMG_1194.jpeg" },
+      { "kind": "image", "s3Key": "I_love_Jadyn/2025-04-18/IMG_1197.jpeg" },
+      { "kind": "image", "s3Key": "I_love_Jadyn/2025-04-18/IMG_8457.jpeg" },
+      { "kind": "image", "s3Key": "I_love_Jadyn/2025-04-18/IMG_8461.jpeg" },
+      { "kind": "image", "s3Key": "I_love_Jadyn/2025-04-18/IMG_8467.jpeg" },
+      { "kind": "image", "s3Key": "I_love_Jadyn/2025-04-18/IMG_8469.jpeg" },
+      { "kind": "image", "s3Key": "I_love_Jadyn/2025-04-18/IMG_8519.jpeg" },
+      { "kind": "image", "s3Key": "I_love_Jadyn/2025-04-18/IMG_8522.jpeg" },
+      { "kind": "image", "s3Key": "I_love_Jadyn/2025-04-18/IMG_8524.jpeg" },
+      { "kind": "image", "s3Key": "I_love_Jadyn/2025-04-18/IMG_9822.jpeg" },
+      { "kind": "image", "s3Key": "I_love_Jadyn/2025-04-18/IMG_9825.jpeg" },
+      { "kind": "image", "s3Key": "I_love_Jadyn/2025-04-18/IMG_9832.jpeg" }
+    ]
+  },
+
+  {
+    "id": "2025-04-26",
+    "title": "Parents Day & Becoming One With Nature",
+    "date": "2025-04-26",
+    "location": "",
+    "description": "Parents Day for AY. Sonya came up, we had a coffee date, and spent time outside together — becoming one with nature.",
+    "photos": [
+      { "kind": "image", "s3Key": "I_love_Jadyn/2025-04-26/IMG_0663.jpeg" },
+      { "kind": "image", "s3Key": "I_love_Jadyn/2025-04-26/IMG_0665.jpeg" },
+      { "kind": "image", "s3Key": "I_love_Jadyn/2025-04-26/IMG_0668.jpeg" },
+      { "kind": "image", "s3Key": "I_love_Jadyn/2025-04-26/IMG_0674.jpeg" },
+      { "kind": "image", "s3Key": "I_love_Jadyn/2025-04-26/IMG_0676.jpeg" },
+      { "kind": "image", "s3Key": "I_love_Jadyn/2025-04-26/IMG_0682.jpeg" },
+      { "kind": "image", "s3Key": "I_love_Jadyn/2025-04-26/IMG_0738.jpeg" },
+      { "kind": "image", "s3Key": "I_love_Jadyn/2025-04-26/IMG_8801.jpeg" },
+      { "kind": "image", "s3Key": "I_love_Jadyn/2025-04-26/IMG_8802.jpeg" },
+      { "kind": "image", "s3Key": "I_love_Jadyn/2025-04-26/IMG_8809.jpeg" },
+      { "kind": "image", "s3Key": "I_love_Jadyn/2025-04-26/IMG_8812.jpeg" }
+    ]
+  },
+  {
+    "id": "2025-05-06",
+    "title": "Gobi’s & the Movies",
+    "date": "2025-05-06",
+    "location": "Gobi’s & Movie Theater",
+    "description": "We had a date at Gobi’s and then went to the movies. I loved the little hat you wore — one of those nights that just felt warm and easy.",
+    "photos": [
+      { "kind": "image", "s3Key": "I_love_Jadyn/2025-05-06/IMG_9050.jpeg" },
+      { "kind": "image", "s3Key": "I_love_Jadyn/2025-05-06/IMG_9052.jpeg" },
+      { "kind": "image", "s3Key": "I_love_Jadyn/2025-05-06/IMG_9063.jpeg" },
+      { "kind": "image", "s3Key": "I_love_Jadyn/2025-05-06/IMG_9065.jpeg" },
+      { "kind": "image", "s3Key": "I_love_Jadyn/2025-05-06/IMG_9066.jpeg" },
+      { "kind": "image", "s3Key": "I_love_Jadyn/2025-05-06/IMG_9069.jpeg" },
+      { "kind": "image", "s3Key": "I_love_Jadyn/2025-05-06/IMG_9072.jpeg" },
+      { "kind": "video", "s3Key": "I_love_Jadyn/2025-05-06/16516FF6-523C-4F21-BD3F-7BA071B8A076.MP4" }
+    ]
+  },
+
+  {
+    "id": "2025-05-07",
+    "title": "Powderpuff Training",
+    "date": "2025-05-07",
+    "location": "",
+    "description": "We were training for powderpuff, and let me tell you — YOU’RE A DOGGGG. Watching you go all out was insanely attractive.",
+    "photos": [
+      { "kind": "image", "s3Key": "I_love_Jadyn/2025-05-07/IMG_1295.jpeg" },
+      { "kind": "image", "s3Key": "I_love_Jadyn/2025-05-07/IMG_1296.jpeg" },
+      { "kind": "image", "s3Key": "I_love_Jadyn/2025-05-07/IMG_1304.jpeg" },
+      { "kind": "video", "s3Key": "I_love_Jadyn/2025-05-07/IMG_1299.MOV" },
+      { "kind": "video", "s3Key": "I_love_Jadyn/2025-05-07/IMG_1300.MOV" },
+      { "kind": "video", "s3Key": "I_love_Jadyn/2025-05-07/IMG_1301.MOV" },
+      { "kind": "video", "s3Key": "I_love_Jadyn/2025-05-07/IMG_1302.MOV" },
+      { "kind": "video", "s3Key": "I_love_Jadyn/2025-05-07/IMG_1302 2.MOV" }
+    ]
+  },
+
+  {
+    "id": "2025-05-08",
+    "title": "Living Outside",
+    "date": "2025-05-08",
+    "location": "",
+    "description": "We spent the day outside laying in the grass, just living. Moments like these always felt special to me — quiet, simple, perfect.",
+    "photos": [
+      { "kind": "image", "s3Key": "I_love_Jadyn/2025-05-08/IMG_1343.jpeg" },
+      { "kind": "image", "s3Key": "I_love_Jadyn/2025-05-08/IMG_1351.jpeg" },
+      { "kind": "image", "s3Key": "I_love_Jadyn/2025-05-08/IMG_1352.jpeg" },
+      { "kind": "image", "s3Key": "I_love_Jadyn/2025-05-08/IMG_1356.jpeg" },
+      { "kind": "image", "s3Key": "I_love_Jadyn/2025-05-08/IMG_9110.jpeg" },
+      { "kind": "image", "s3Key": "I_love_Jadyn/2025-05-08/IMG_9113.jpeg" },
+      { "kind": "image", "s3Key": "I_love_Jadyn/2025-05-08/IMG_9115.jpeg" },
+      { "kind": "image", "s3Key": "I_love_Jadyn/2025-05-08/IMG_9119.jpeg" },
+      { "kind": "image", "s3Key": "I_love_Jadyn/2025-05-08/IMG_9120.jpeg" },
+      { "kind": "image", "s3Key": "I_love_Jadyn/2025-05-08/IMG_9129.jpeg" }
+    ]
+  },
+
+  {
+    "id": "2025-05-10",
+    "title": "Beach Day & Ice Cream",
+    "date": "2025-05-10",
+    "location": "The Beach",
+    "description": "We went to the beach and got ice cream. You were so cute when you asked me to take a picture of you on the rock. I love you so much.",
+    "photos": [
+      { "kind": "image", "s3Key": "I_love_Jadyn/2025-05-10/IMG_1721.jpeg" },
+      { "kind": "image", "s3Key": "I_love_Jadyn/2025-05-10/IMG_1722.jpeg" },
+      { "kind": "image", "s3Key": "I_love_Jadyn/2025-05-10/IMG_1731.jpeg" },
+      { "kind": "image", "s3Key": "I_love_Jadyn/2025-05-10/IMG_1874.jpeg" },
+      { "kind": "image", "s3Key": "I_love_Jadyn/2025-05-10/IMG_1875.jpeg" },
+      { "kind": "image", "s3Key": "I_love_Jadyn/2025-05-10/IMG_1876.jpeg" },
+      { "kind": "image", "s3Key": "I_love_Jadyn/2025-05-10/IMG_1879.jpeg" },
+      { "kind": "image", "s3Key": "I_love_Jadyn/2025-05-10/IMG_1889.jpeg" },
+      { "kind": "image", "s3Key": "I_love_Jadyn/2025-05-10/IMG_9186.jpeg" },
+      { "kind": "image", "s3Key": "I_love_Jadyn/2025-05-10/IMG_9200.jpeg" }
+    ]
+  },
+  {
+    "id": "2025-05-22",
+    "title": "Three Months",
+    "date": "2025-05-22",
+    "location": "",
+    "description": "We had a late night celebration of our three month anniversary — goofing off, talking about our fits, and just enjoying each other.",
+    "photos": [
+      { "kind": "image", "s3Key": "I_love_Jadyn/2025-05-22/IMG_2283.jpeg" },
+      { "kind": "image", "s3Key": "I_love_Jadyn/2025-05-22/IMG_9424.jpeg" },
+      { "kind": "image", "s3Key": "I_love_Jadyn/2025-05-22/IMG_9425.jpeg" },
+      { "kind": "image", "s3Key": "I_love_Jadyn/2025-05-22/IMG_9426.jpeg" },
+      { "kind": "video", "s3Key": "I_love_Jadyn/2025-05-22/IMG_2279.MOV" },
+      { "kind": "video", "s3Key": "I_love_Jadyn/2025-05-22/IMG_2280.MOV" },
+      { "kind": "video", "s3Key": "I_love_Jadyn/2025-05-22/ee019cd8353b4d4f8c14cac910b00c16.MOV" },
+      { "kind": "video", "s3Key": "I_love_Jadyn/2025-05-22/IMG_9421.MOV" }
+    ]
+  },
+
+  {
+    "id": "2025-05-25",
+    "title": "Golf Cart Adventures",
+    "date": "2025-05-25",
+    "location": "Your Home",
+    "description": "We took a trip to your home and you were whipping that golf cart like a pro. One of those days that felt carefree and fun.",
+    "photos": [
+      { "kind": "image", "s3Key": "I_love_Jadyn/2025-05-25/IMG_2414.jpeg" },
+      { "kind": "image", "s3Key": "I_love_Jadyn/2025-05-25/IMG_2416.jpeg" },
+      { "kind": "image", "s3Key": "I_love_Jadyn/2025-05-25/IMG_9494.jpeg" },
+      { "kind": "image", "s3Key": "I_love_Jadyn/2025-05-25/IMG_9499.jpeg" },
+      { "kind": "image", "s3Key": "I_love_Jadyn/2025-05-25/IMG_9537.jpeg" },
+      { "kind": "image", "s3Key": "I_love_Jadyn/2025-05-25/IMG_9539.jpeg" },
+      { "kind": "video", "s3Key": "I_love_Jadyn/2025-05-25/IMG_9493.MOV" },
+      { "kind": "video", "s3Key": "I_love_Jadyn/2025-05-25/IMG_9507.MOV" },
+      { "kind": "video", "s3Key": "I_love_Jadyn/2025-05-25/IMG_9509.MOV" },
+      { "kind": "video", "s3Key": "I_love_Jadyn/2025-05-25/IMG_9513.MOV" },
+      { "kind": "video", "s3Key": "I_love_Jadyn/2025-05-25/IMG_9514.MOV" }
+    ]
+  },
+
+  {
+    "id": "2025-05-31",
+    "title": "My Birthday & Gameday",
+    "date": "2025-05-31",
+    "location": "",
+    "description": "It was my birthday and gameday for powderpuff. Even though we came up short, I appreciate everything you did for me. I’m so proud of you and so thankful for you.",
+    "photos": [
+      { "kind": "image", "s3Key": "I_love_Jadyn/2025-05-31/20250531_163046_830CA9.jpeg" },
+      { "kind": "image", "s3Key": "I_love_Jadyn/2025-05-31/20250531_163046_836B24.jpeg" },
+      { "kind": "image", "s3Key": "I_love_Jadyn/2025-05-31/20250531_163046_83A9D0.jpeg" },
+      { "kind": "image", "s3Key": "I_love_Jadyn/2025-05-31/20250531_163046_890982.jpeg" },
+      { "kind": "image", "s3Key": "I_love_Jadyn/2025-05-31/20250531_163046_8D9563.jpeg" },
+      { "kind": "image", "s3Key": "I_love_Jadyn/2025-05-31/20250531_163046_8E0A8D.jpeg" },
+      { "kind": "image", "s3Key": "I_love_Jadyn/2025-05-31/TWI_8053.jpeg" },
+      { "kind": "image", "s3Key": "I_love_Jadyn/2025-05-31/TWI_8165.jpeg" },
+      { "kind": "image", "s3Key": "I_love_Jadyn/2025-05-31/TWI_8478.jpeg" },
+      { "kind": "image", "s3Key": "I_love_Jadyn/2025-05-31/TWI_9133.jpeg" },
+      { "kind": "image", "s3Key": "I_love_Jadyn/2025-05-31/TWI_9210.jpeg" },
+      { "kind": "image", "s3Key": "I_love_Jadyn/2025-05-31/TWI_9221.jpeg" },
+      { "kind": "image", "s3Key": "I_love_Jadyn/2025-05-31/TWI_9945.jpeg" },
+      { "kind": "image", "s3Key": "I_love_Jadyn/2025-05-31/TWI_9947.jpeg" },
+      { "kind": "image", "s3Key": "I_love_Jadyn/2025-05-31/TWI_9952.jpeg" },
+      { "kind": "image", "s3Key": "I_love_Jadyn/2025-05-31/TWI_9957.jpeg" },
+      { "kind": "image", "s3Key": "I_love_Jadyn/2025-05-31/TWI_9986.jpeg" },
+      { "kind": "image", "s3Key": "I_love_Jadyn/2025-05-31/TWIa_0002.jpeg" },
+      { "kind": "image", "s3Key": "I_love_Jadyn/2025-05-31/TWIa_0020.jpeg" },
+      { "kind": "image", "s3Key": "I_love_Jadyn/2025-05-31/TWIa_0488.jpeg" },
+      { "kind": "image", "s3Key": "I_love_Jadyn/2025-05-31/TWIa_0829.jpeg" },
+      { "kind": "image", "s3Key": "I_love_Jadyn/2025-05-31/TWIa_1819.jpeg" },
+      { "kind": "image", "s3Key": "I_love_Jadyn/2025-05-31/TWIa_1823.jpeg" },
+      { "kind": "image", "s3Key": "I_love_Jadyn/2025-05-31/TWIa_1832.jpeg" }
+    ]
+  },
+
+  {
+    "id": "2025-06-03",
+    "title": "Helping You Move In",
+    "date": "2025-06-03",
+    "description": "I helped you move into your first real house. This was such a fun day and felt like a big step for us.",
+    "photos": [
+      { "kind": "image", "s3Key": "I_love_Jadyn/2025-06-3/IMG_9658.jpeg" },
+      { "kind": "video", "s3Key": "I_love_Jadyn/2025-06-3/copy_B258AAD8-F987-4E2E-9987-B418F4FA4D10.MOV" },
+      { "kind": "video", "s3Key": "I_love_Jadyn/2025-06-3/IMG_9608.MOV" }
+    ]
+  },
+
+  {
+    "id": "2025-06-07",
+    "title": "For Your Family",
+    "date": "2025-06-07",
+    "description": "I went and visited your mom and family for you since you couldn’t make it because of your event. I carried you inside after because you’re my princess.",
+    "photos": [
+      { "kind": "image", "s3Key": "I_love_Jadyn/2025-06-07/IMG_9714.jpeg" },
+      { "kind": "image", "s3Key": "I_love_Jadyn/2025-06-07/IMG_9717.jpeg" },
+      { "kind": "image", "s3Key": "I_love_Jadyn/2025-06-07/IMG_9721.jpeg" },
+      { "kind": "image", "s3Key": "I_love_Jadyn/2025-06-07/IMG_9734.jpeg" },
+      { "kind": "image", "s3Key": "I_love_Jadyn/2025-06-07/IMG_9738.jpeg" },
+      { "kind": "image", "s3Key": "I_love_Jadyn/2025-06-07/IMG_9740.jpeg" },
+      { "kind": "video", "s3Key": "I_love_Jadyn/2025-06-07/IMG_2728.MOV" },
+      { "kind": "video", "s3Key": "I_love_Jadyn/2025-06-07/IMG_9727.MOV" }
+    ]
+  },
+
+  {
+    "id": "2025-06-08",
+    "title": "A day with you",
+    "date": "2025-06-08",
+    "description": "We went to Marshall’s to buy some goods, stopped at Starbucks, and did more work in your home. You looked stunning in that red dress.",
+    "photos": [
+      { "kind": "image", "s3Key": "I_love_Jadyn/2025-06-08/IMG_2737.jpeg" },
+      { "kind": "image", "s3Key": "I_love_Jadyn/2025-06-08/IMG_2738.jpeg" },
+      { "kind": "image", "s3Key": "I_love_Jadyn/2025-06-08/IMG_9749.jpeg" },
+      { "kind": "image", "s3Key": "I_love_Jadyn/2025-06-08/IMG_9752.jpeg" },
+      { "kind": "image", "s3Key": "I_love_Jadyn/2025-06-08/IMG_9754.jpeg" },
+      { "kind": "image", "s3Key": "I_love_Jadyn/2025-06-08/IMG_9756.jpeg" },
+      { "kind": "image", "s3Key": "I_love_Jadyn/2025-06-08/IMG_9761.jpeg" }
+    ]
+  },
+
+  {
+    "id": "2025-06-14",
+    "title": "My First Car",
+    "date": "2025-06-14",
+    "description": "I bought my first ever car all by myself. I remember being so proud of myself this day.",
+    "photos": [
+      { "kind": "image", "s3Key": "I_love_Jadyn/2025-06-14/IMG_6922.jpeg" },
+      { "kind": "image", "s3Key": "I_love_Jadyn/2025-06-14/IMG_9855.jpeg" },
+      { "kind": "image", "s3Key": "I_love_Jadyn/2025-06-14/IMG_9857.jpeg" },
+      { "kind": "image", "s3Key": "I_love_Jadyn/2025-06-14/IMG_9869.jpeg" },
+      { "kind": "image", "s3Key": "I_love_Jadyn/2025-06-14/IMG_9870.jpeg" },
+      { "kind": "image", "s3Key": "I_love_Jadyn/2025-06-14/IMG_9894.jpeg" },
+      { "kind": "image", "s3Key": "I_love_Jadyn/2025-06-14/IMG_9897.jpeg" },
+      { "kind": "image", "s3Key": "I_love_Jadyn/2025-06-14/IMG_9910.jpeg" },
+      { "kind": "video", "s3Key": "I_love_Jadyn/2025-06-14/BDC2ECF0-3DA9-42B1-BA37-0E96B53829DC.MP4" }
+    ]
+  },
+
+  {
+    "id": "2025-06-15",
+    "title": "Beach Photoshoot",
+    "date": "2025-06-15",
+    "description": "We did a photoshoot of you at the beach. I still stare at these photos to this day. I am such a lucky man.",
+    "photos": [
+      { "kind": "image", "s3Key": "I_love_Jadyn/2025-06-15/FullSizeRender.jpeg" },
+      { "kind": "image", "s3Key": "I_love_Jadyn/2025-06-15/IMG_3435.jpeg" },
+      { "kind": "image", "s3Key": "I_love_Jadyn/2025-06-15/IMG_3692.jpeg" },
+      { "kind": "image", "s3Key": "I_love_Jadyn/2025-06-15/IMG_3693.jpeg" },
+      { "kind": "image", "s3Key": "I_love_Jadyn/2025-06-15/IMG_3857.jpeg" },
+      { "kind": "image", "s3Key": "I_love_Jadyn/2025-06-15/IMG_3859.jpeg" },
+      { "kind": "image", "s3Key": "I_love_Jadyn/2025-06-15/IMG_3862.jpeg" },
+      { "kind": "image", "s3Key": "I_love_Jadyn/2025-06-15/IMG_9883.jpeg" },
+      { "kind": "image", "s3Key": "I_love_Jadyn/2025-06-15/IMG_9886.jpeg" },
+      { "kind": "image", "s3Key": "I_love_Jadyn/2025-06-15/IMG_9888.jpeg" },
+      { "kind": "image", "s3Key": "I_love_Jadyn/2025-06-15/IMG_9891.jpeg" },
+      { "kind": "image", "s3Key": "I_love_Jadyn/2025-06-15/IMG_9892.jpeg" }
+    ]
+  },
+{
+  "id": "2025-06-19",
+  "title": "Pier 39 With Your Family",
+  "date": "2025-06-19",
+  "description": "We took a trip to Pier 39 with your family and had some really good food. Such a warm, fun day together.",
+  "photos": [
+    { "kind": "image", "s3Key": "I_love_Jadyn/2025-06-19/IMG_4621.jpeg" },
+    { "kind": "image", "s3Key": "I_love_Jadyn/2025-06-19/IMG_4618.jpeg" },
+    { "kind": "image", "s3Key": "I_love_Jadyn/2025-06-19/IMG_4617.jpeg" },
+    { "kind": "image", "s3Key": "I_love_Jadyn/2025-06-19/IMG_4612.jpeg" },
+    { "kind": "image", "s3Key": "I_love_Jadyn/2025-06-19/IMG_4608.jpeg" },
+    { "kind": "image", "s3Key": "I_love_Jadyn/2025-06-19/IMG_4607.jpeg" },
+    { "kind": "image", "s3Key": "I_love_Jadyn/2025-06-19/IMG_4606.jpeg" },
+    { "kind": "image", "s3Key": "I_love_Jadyn/2025-06-19/IMG_4605.jpeg" },
+    { "kind": "image", "s3Key": "I_love_Jadyn/2025-06-19/IMG_4599.jpeg" },
+    { "kind": "image", "s3Key": "I_love_Jadyn/2025-06-19/IMG_4596.jpeg" },
+    { "kind": "image", "s3Key": "I_love_Jadyn/2025-06-19/IMG_4593.jpeg" },
+    { "kind": "image", "s3Key": "I_love_Jadyn/2025-06-19/IMG_0505.jpeg" },
+    { "kind": "image", "s3Key": "I_love_Jadyn/2025-06-19/IMG_0500.jpeg" },
+    { "kind": "image", "s3Key": "I_love_Jadyn/2025-06-19/IMG_0499.jpeg" },
+    { "kind": "image", "s3Key": "I_love_Jadyn/2025-06-19/IMG_0498.jpeg" },
+    { "kind": "image", "s3Key": "I_love_Jadyn/2025-06-19/IMG_0496.jpeg" }
+  ]
+}
+,
+  {
+    "id": "2025-06-22",
+    "title": "Road Trip Home",
+    "date": "2025-06-22",
+    "description": "We took a road trip to your home. We had to take separate cars but it was fun nonetheless. We also stopped at that Taco Bell where the guy took the worst picture of us ever.",
+    "photos": [
+      { "kind": "image", "s3Key": "I_love_Jadyn/2025-06-22/IMG_3746.jpeg" },
+      { "kind": "image", "s3Key": "I_love_Jadyn/2025-06-22/IMG_0003.jpeg" },
+      { "kind": "image", "s3Key": "I_love_Jadyn/2025-06-22/IMG_0019.jpeg" },
+      { "kind": "image", "s3Key": "I_love_Jadyn/2025-06-22/IMG_2694.jpeg" },
+      { "kind": "image", "s3Key": "I_love_Jadyn/2025-06-22/IMG_3748.jpeg" },
+      { "kind": "image", "s3Key": "I_love_Jadyn/2025-06-22/IMG_3754.jpeg" },
+      { "kind": "image", "s3Key": "I_love_Jadyn/2025-06-22/IMG_3756.jpeg" },
+      { "kind": "image", "s3Key": "I_love_Jadyn/2025-06-22/IMG_3765.jpeg" },
+      { "kind": "image", "s3Key": "I_love_Jadyn/2025-06-22/IMG_3823.jpeg" },
+      { "kind": "image", "s3Key": "I_love_Jadyn/2025-06-22/IMG_9936.jpeg" },
+      { "kind": "image", "s3Key": "I_love_Jadyn/2025-06-22/IMG_9939.jpeg" },
+      { "kind": "image", "s3Key": "I_love_Jadyn/2025-06-22/IMG_9946.jpeg" },
+      { "kind": "image", "s3Key": "I_love_Jadyn/2025-06-22/IMG_9968.jpeg" },
+      { "kind": "image", "s3Key": "I_love_Jadyn/2025-06-22/IMG_9971.jpeg" },
+      { "kind": "image", "s3Key": "I_love_Jadyn/2025-06-22/IMG_9979.jpeg" },
+      { "kind": "image", "s3Key": "I_love_Jadyn/2025-06-22/IMG_9988.jpeg" },
+      { "kind": "image", "s3Key": "I_love_Jadyn/2025-06-22/IMG_9994.jpeg" },
+      { "kind": "video", "s3Key": "I_love_Jadyn/2025-06-22/53BA217F-D0CF-4A2C-ADEA-F12AA16A270A.MP4" },
+      { "kind": "video", "s3Key": "I_love_Jadyn/2025-06-22/IMG_3757.MOV" },
+      { "kind": "video", "s3Key": "I_love_Jadyn/2025-06-22/IMG_9973.MOV" },
+      { "kind": "video", "s3Key": "I_love_Jadyn/2025-06-22/IMG_9982.MOV" }
+    ]
+  },
+
+  {
+    "id": "2025-06-28",
+    "title": "Pickleball With Friends",
+    "date": "2025-06-28",
+    "description": "We played pickleball with Jasmine and had such a fun time together.",
+    "photos": [
+      { "kind": "image", "s3Key": "I_love_Jadyn/2025-06-28/IMG_4023.jpeg" },
+      { "kind": "image", "s3Key": "I_love_Jadyn/2025-06-28/IMG_4030.jpeg" },
+      { "kind": "image", "s3Key": "I_love_Jadyn/2025-06-28/IMG_4032.jpeg" }
+    ]
+  },
+  
+  {
+    "id": "2025-07-06",
+    "title": "Hokkaido Date & Flowers",
+    "date": "2025-07-06",
+    "description": "We went on a date to Hokkaido and it was bussdown. We also went to church, and I brought you flowers after your girls night. I love doing stuff for you.",
+    "photos": [
+      { "kind": "image", "s3Key": "I_love_Jadyn/2025-07-06/IMG_0303.jpeg" },
+      { "kind": "image", "s3Key": "I_love_Jadyn/2025-07-06/IMG_0318.jpeg" },
+      { "kind": "image", "s3Key": "I_love_Jadyn/2025-07-06/IMG_0319.jpeg" },
+      { "kind": "image", "s3Key": "I_love_Jadyn/2025-07-06/IMG_0325.jpeg" },
+      { "kind": "image", "s3Key": "I_love_Jadyn/2025-07-06/IMG_0328.jpeg" },
+      { "kind": "image", "s3Key": "I_love_Jadyn/2025-07-06/IMG_0329.jpeg" },
+      { "kind": "image", "s3Key": "I_love_Jadyn/2025-07-06/IMG_0330.jpeg" },
+      { "kind": "video", "s3Key": "I_love_Jadyn/2025-07-06/IMG_0341.MOV" }
+    ]
+  },
+
+  {
+    "id": "2025-07-11",
+    "title": "7/11 Slurpees",
+    "date": "2025-07-11",
+    "description": "It was 7/11 so we got our quarter slurpees because they charge for the cups. I caught a crazy brain freeze.",
+    "photos": [
+      { "kind": "image", "s3Key": "I_love_Jadyn/2025-07-11/IMG_4323.jpeg" },
+      { "kind": "image", "s3Key": "I_love_Jadyn/2025-07-11/IMG_4322.jpeg" },
+      { "kind": "image", "s3Key": "I_love_Jadyn/2025-07-11/IMG_4321.jpeg" },
+      { "kind": "image", "s3Key": "I_love_Jadyn/2025-07-11/IMG_4320.jpeg" },
+      { "kind": "image", "s3Key": "I_love_Jadyn/2025-07-11/IMG_0433.jpeg" },
+      { "kind": "image", "s3Key": "I_love_Jadyn/2025-07-11/IMG_0432.jpeg" },
+      { "kind": "image", "s3Key": "I_love_Jadyn/2025-07-11/IMG_0429.jpeg" },
+      { "kind": "image", "s3Key": "I_love_Jadyn/2025-07-11/IMG_0427.jpeg" },
+      { "kind": "image", "s3Key": "I_love_Jadyn/2025-07-11/IMG_0426.jpeg" }
+    ]
+  },
+
+  {
+    "id": "2025-07-16",
+    "title": "Pulled Up To Your Work",
+    "date": "2025-07-16",
+    "description": "This was the first time I pulled up to your work wearing the best shirt in the world.",
+    "photos": [
+      { "kind": "image", "s3Key": "I_love_Jadyn/2025-07-16/IMG_4528.jpeg" },
+      { "kind": "image", "s3Key": "I_love_Jadyn/2025-07-16/IMG_4527.jpeg" },
+      { "kind": "video", "s3Key": "I_love_Jadyn/2025-07-16/IMG_4529.MOV" }
+    ]
+  },
+
+  {
+    "id": "2025-07-22",
+    "title": "Five Months",
+    "date": "2025-07-22",
+    "description": "Our 5 month. We got Wingstop, did our traditional donut, and decorated my wall with pictures of you. I loved this day.",
+    "photos": [
+      { "kind": "image", "s3Key": "I_love_Jadyn/2025-07-22/IMG_0602.jpeg" },
+      { "kind": "image", "s3Key": "I_love_Jadyn/2025-07-22/IMG_0600.jpeg" },
+      { "kind": "image", "s3Key": "I_love_Jadyn/2025-07-22/IMG_0599.jpeg" },
+      { "kind": "image", "s3Key": "I_love_Jadyn/2025-07-22/IMG_0598.jpeg" },
+      { "kind": "image", "s3Key": "I_love_Jadyn/2025-07-22/IMG_0593.jpeg" },
+      { "kind": "image", "s3Key": "I_love_Jadyn/2025-07-22/IMG_0591.jpeg" },
+      { "kind": "image", "s3Key": "I_love_Jadyn/2025-07-22/IMG_0590.jpeg" },
+      { "kind": "video", "s3Key": "I_love_Jadyn/2025-07-22/IMG_0595.MOV" }
+    ]
+  },
+
+  {
+    "id": "2025-07-26",
+    "title": "Boardwalk & Pier",
+    "date": "2025-07-26",
+    "description": "These days I just thought you looked so beautiful. One day was at the boardwalk and the other was at the pier. I adore you.",
+    "photos": [
+      { "kind": "image", "s3Key": "I_love_Jadyn/2025-07-26/IMG_0647.jpeg" },
+      { "kind": "image", "s3Key": "I_love_Jadyn/2025-07-26/IMG_0649.jpeg" },
+      { "kind": "image", "s3Key": "I_love_Jadyn/2025-07-26/IMG_0645.jpeg" },
+      { "kind": "image", "s3Key": "I_love_Jadyn/2025-07-26/IMG_0635.jpeg" },
+      { "kind": "image", "s3Key": "I_love_Jadyn/2025-07-26/IMG_0634.jpeg" },
+      { "kind": "image", "s3Key": "I_love_Jadyn/2025-07-26/IMG_0630.jpeg" },
+      { "kind": "image", "s3Key": "I_love_Jadyn/2025-07-26/IMG_0628.jpeg" }
+    ]
+  },
+  
+  {
+    "id": "2025-08-02",
+    "title": "First Haircut (Learning Curve 😭)",
+    "date": "2025-08-02",
+    "description": "I cut your hair for the first time. I felt bad because I didn’t do great and we went to the salon to fix it. We also went to the beach since it was such a pretty day.",
+    "photos": [
+      { "kind": "image", "s3Key": "I_love_Jadyn/2025-08-02/IMG_4882.jpeg" },
+      { "kind": "image", "s3Key": "I_love_Jadyn/2025-08-02/IMG_4881.jpeg" },
+      { "kind": "image", "s3Key": "I_love_Jadyn/2025-08-02/IMG_4878.jpeg" },
+      { "kind": "image", "s3Key": "I_love_Jadyn/2025-08-02/IMG_4876.jpeg" },
+      { "kind": "image", "s3Key": "I_love_Jadyn/2025-08-02/IMG_4874.jpeg" },
+      { "kind": "image", "s3Key": "I_love_Jadyn/2025-08-02/IMG_4871.jpeg" },
+      { "kind": "image", "s3Key": "I_love_Jadyn/2025-08-02/IMG_4869.jpeg" },
+      { "kind": "image", "s3Key": "I_love_Jadyn/2025-08-02/IMG_4866.jpeg" },
+      { "kind": "image", "s3Key": "I_love_Jadyn/2025-08-02/IMG_0676.jpeg" },
+      { "kind": "image", "s3Key": "I_love_Jadyn/2025-08-02/IMG_0675.jpeg" },
+      { "kind": "image", "s3Key": "I_love_Jadyn/2025-08-02/IMG_0672.jpeg" }
+    ]
+  },
+
+  {
+    "id": "2025-08-03",
+    "title": "Dinner at Jasmine’s",
+    "date": "2025-08-03",
+    "description": "We had that dinner night at Jasmine’s house. Although it was eventful, I had a lot of fun dressing up and living life with you.",
+    "photos": [
+      { "kind": "image", "s3Key": "I_love_Jadyn/2025-08-03/IMG_0750.jpeg" },
+      { "kind": "image", "s3Key": "I_love_Jadyn/2025-08-03/IMG_0744.jpeg" },
+      { "kind": "image", "s3Key": "I_love_Jadyn/2025-08-03/IMG_0734.jpeg" },
+      { "kind": "image", "s3Key": "I_love_Jadyn/2025-08-03/IMG_0714.jpeg" },
+      { "kind": "image", "s3Key": "I_love_Jadyn/2025-08-03/IMG_0703.jpeg" },
+      { "kind": "image", "s3Key": "I_love_Jadyn/2025-08-03/IMG_0699.jpeg" }
+    ]
+  },
+
+  {
+    "id": "2025-08-06",
+    "title": "Boardwalk With Anthony",
+    "date": "2025-08-06",
+    "description": "We took Anthony to the boardwalk. I had a lot of fun and I absolutely adore all of these photos of you.",
+    "photos": [
+      { "kind": "image", "s3Key": "I_love_Jadyn/2025-08-06/IMG_5183.jpeg" },
+      { "kind": "image", "s3Key": "I_love_Jadyn/2025-08-06/IMG_5181.jpeg" },
+      { "kind": "image", "s3Key": "I_love_Jadyn/2025-08-06/IMG_5179.jpeg" },
+      { "kind": "image", "s3Key": "I_love_Jadyn/2025-08-06/IMG_5170.jpeg" },
+      { "kind": "image", "s3Key": "I_love_Jadyn/2025-08-06/IMG_0828.jpeg" },
+      { "kind": "image", "s3Key": "I_love_Jadyn/2025-08-06/IMG_0823.jpeg" },
+      { "kind": "image", "s3Key": "I_love_Jadyn/2025-08-06/IMG_0819.jpeg" },
+      { "kind": "image", "s3Key": "I_love_Jadyn/2025-08-06/IMG_0806.jpeg" },
+      { "kind": "image", "s3Key": "I_love_Jadyn/2025-08-06/IMG_0802.jpeg" },
+      { "kind": "image", "s3Key": "I_love_Jadyn/2025-08-06/IMG_0799.jpeg" },
+      { "kind": "image", "s3Key": "I_love_Jadyn/2025-08-06/IMG_0794.jpeg" },
+      { "kind": "image", "s3Key": "I_love_Jadyn/2025-08-06/IMG_0793.jpeg" },
+      { "kind": "video", "s3Key": "I_love_Jadyn/2025-08-06/IMG_0825.MOV" }
+    ]
+  },
+
+  {
+    "id": "2025-08-09",
+    "title": "Bowling & Beach Day",
+    "date": "2025-08-09",
+    "description": "We went bowling for the first time and we both were not great. I had so much fun — you can hear the little kid in me come out. We also went to the beach just for funsies.",
+    "photos": [
+      { "kind": "image", "s3Key": "I_love_Jadyn/2025-08-09/IMG_5286.jpeg" },
+      { "kind": "image", "s3Key": "I_love_Jadyn/2025-08-09/IMG_0863.jpeg" },
+      { "kind": "image", "s3Key": "I_love_Jadyn/2025-08-09/IMG_0859.jpeg" },
+      { "kind": "image", "s3Key": "I_love_Jadyn/2025-08-09/IMG_0855.jpeg" },
+      { "kind": "image", "s3Key": "I_love_Jadyn/2025-08-09/IMG_0854.jpeg" },
+      { "kind": "image", "s3Key": "I_love_Jadyn/2025-08-09/IMG_0849.jpeg" },
+      { "kind": "image", "s3Key": "I_love_Jadyn/2025-08-09/IMG_0847.jpeg" },
+      { "kind": "video", "s3Key": "I_love_Jadyn/2025-08-09/DDE4845D-537D-4533-8600-83AB0D2BD3FF.MP4" },
+      { "kind": "video", "s3Key": "I_love_Jadyn/2025-08-09/869F31C7-C2F9-40AB-8E85-E2FE49B13074.MP4" },
+      { "kind": "video", "s3Key": "I_love_Jadyn/2025-08-09/7C56FE1B-D19A-437F-AC80-7F39EE1DA012.MP4" },
+      { "kind": "video", "s3Key": "I_love_Jadyn/2025-08-09/76AFA64E-9CDE-477D-BEE5-2982CA356135.MP4" },
+      { "kind": "video", "s3Key": "I_love_Jadyn/2025-08-09/528507F9-C9F6-4013-8B18-D72EBC7D3FF2.MP4" },
+      { "kind": "video", "s3Key": "I_love_Jadyn/2025-08-09/0404C4EA-1701-460B-838F-543CEDDDA33D.MP4" }
+    ]
+  },
+
+  {
+    "id": "2025-08-22",
+    "title": "Six Months 🤍",
+    "date": "2025-08-22",
+    "description": "It was our six month. We went to an Italian restaurant and I felt so happy with you. You surprised me with donuts when I got off work. I felt bad because I had to work, but I loved this day.",
+    "photos": [
+      { "kind": "image", "s3Key": "I_love_Jadyn/2025-08-22/IMG_5490.jpeg" },
+      { "kind": "image", "s3Key": "I_love_Jadyn/2025-08-22/IMG_0965.jpeg" },
+      { "kind": "image", "s3Key": "I_love_Jadyn/2025-08-22/IMG_0963.jpeg" },
+      { "kind": "image", "s3Key": "I_love_Jadyn/2025-08-22/IMG_0961.jpeg" },
+      { "kind": "image", "s3Key": "I_love_Jadyn/2025-08-22/IMG_0958.jpeg" }
+    ]
+  }
+,
+  {
+    "id": "2025-09-11",
+    "title": "Redwoods & Home",
+    "date": "2025-09-11",
+    "description": "We took another trip to your home. We drove out to see the big redwoods because I had never seen them before — it was for sure an experience. Also miss little man Frank, I hope he's doing alright.",
+    "photos": [
+      { "kind": "image", "s3Key": "I_love_Jadyn/2025-09-11/IMG_1120.jpeg" },
+      { "kind": "image", "s3Key": "I_love_Jadyn/2025-09-11/IMG_1142.jpeg" },
+      { "kind": "image", "s3Key": "I_love_Jadyn/2025-09-11/IMG_1139.jpeg" },
+      { "kind": "image", "s3Key": "I_love_Jadyn/2025-09-11/IMG_1138.jpeg" },
+      { "kind": "image", "s3Key": "I_love_Jadyn/2025-09-11/IMG_1132.jpeg" },
+      { "kind": "image", "s3Key": "I_love_Jadyn/2025-09-11/IMG_1121.jpeg" },
+      { "kind": "image", "s3Key": "I_love_Jadyn/2025-09-11/IMG_1118.jpeg" },
+      { "kind": "image", "s3Key": "I_love_Jadyn/2025-09-11/IMG_1116.jpeg" },
+      { "kind": "image", "s3Key": "I_love_Jadyn/2025-09-11/IMG_1114.jpeg" },
+      { "kind": "image", "s3Key": "I_love_Jadyn/2025-09-11/IMG_1113.jpeg" },
+      { "kind": "image", "s3Key": "I_love_Jadyn/2025-09-11/IMG_1112.jpeg" },
+      { "kind": "image", "s3Key": "I_love_Jadyn/2025-09-11/IMG_1109.jpeg" },
+      { "kind": "image", "s3Key": "I_love_Jadyn/2025-09-11/IMG_1107.jpeg" },
+      { "kind": "image", "s3Key": "I_love_Jadyn/2025-09-11/IMG_1105.jpeg" },
+      { "kind": "image", "s3Key": "I_love_Jadyn/2025-09-11/IMG_1101.jpeg" },
+      { "kind": "image", "s3Key": "I_love_Jadyn/2025-09-11/IMG_1097.jpeg" },
+      { "kind": "image", "s3Key": "I_love_Jadyn/2025-09-11/IMG_1096.jpeg" },
+      { "kind": "image", "s3Key": "I_love_Jadyn/2025-09-11/IMG_1093.jpeg" },
+      { "kind": "image", "s3Key": "I_love_Jadyn/2025-09-11/IMG_1092.jpeg" },
+      { "kind": "image", "s3Key": "I_love_Jadyn/2025-09-11/IMG_1091.jpeg" },
+      { "kind": "image", "s3Key": "I_love_Jadyn/2025-09-11/IMG_1090.jpeg" },
+      { "kind": "image", "s3Key": "I_love_Jadyn/2025-09-11/IMG_1087.jpeg" },
+      { "kind": "image", "s3Key": "I_love_Jadyn/2025-09-11/IMG_1086.jpeg" },
+
+      { "kind": "video", "s3Key": "I_love_Jadyn/2025-09-11/IMG_1127.MOV" },
+      { "kind": "video", "s3Key": "I_love_Jadyn/2025-09-11/IMG_1125.MOV" },
+      { "kind": "video", "s3Key": "I_love_Jadyn/2025-09-11/83DFE781-C8C7-4287-A39D-D57607AA3CFE.MOV" },
+      { "kind": "video", "s3Key": "I_love_Jadyn/2025-09-11/7E1A254B-BDE8-41DD-AF74-54DCD70D0F8C.MP4" },
+      { "kind": "video", "s3Key": "I_love_Jadyn/2025-09-11/5DE82AFE-4274-43B8-838E-00A78E4933BF.MP4" }
+    ]
+  },
+
+  {
+    "id": "2025-09-26",
+    "title": "Açaí Date",
+    "date": "2025-09-26",
+    "description": "We had a small date to the açaí bowl place. They are expensive, but when they get us right, it is definitely worth it.",
+    "photos": [
+      { "kind": "image", "s3Key": "I_love_Jadyn/2025-09-26/IMG_1242.jpeg" },
+      { "kind": "image", "s3Key": "I_love_Jadyn/2025-09-26/IMG_1241.jpeg" },
+      { "kind": "image", "s3Key": "I_love_Jadyn/2025-09-26/IMG_1237.jpeg" },
+      { "kind": "image", "s3Key": "I_love_Jadyn/2025-09-26/IMG_1234.jpeg" },
+      { "kind": "image", "s3Key": "I_love_Jadyn/2025-09-26/IMG_1233.jpeg" },
+      { "kind": "image", "s3Key": "I_love_Jadyn/2025-09-26/IMG_1232.jpeg" }
+    ]
+  },
+
+  {
+    "id": "2025-09-27",
+    "title": "Rush Event & Family",
+    "date": "2025-09-27",
+    "description": "It was a rush event. I thought you looked so beautiful so we stopped to take some pictures. After that, we went to go see your family in San Jose and play the guitar.",
+    "photos": [
+      { "kind": "image", "s3Key": "I_love_Jadyn/2025-09-27/IMG_1348.jpeg" },
+      { "kind": "image", "s3Key": "I_love_Jadyn/2025-09-27/IMG_1310.jpeg" },
+      { "kind": "image", "s3Key": "I_love_Jadyn/2025-09-27/IMG_1296.jpeg" },
+      { "kind": "image", "s3Key": "I_love_Jadyn/2025-09-27/IMG_1294.jpeg" },
+      { "kind": "image", "s3Key": "I_love_Jadyn/2025-09-27/IMG_1276.jpeg" },
+      { "kind": "image", "s3Key": "I_love_Jadyn/2025-09-27/IMG_1272.jpeg" },
+      { "kind": "image", "s3Key": "I_love_Jadyn/2025-09-27/IMG_1255.jpeg" },
+      { "kind": "image", "s3Key": "I_love_Jadyn/2025-09-27/IMG_1252.jpeg" }
+    ]
+  },
+
+  {
+    "id": "2025-10-01",
+    "title": "Keysight UGM",
+    "date": "2025-10-01",
+    "description": "I had gotten invited to Keysight for their UGM. It was cool and exciting to be in a facility headquarters. I was bummed that the role I did well in the interview process for got canceled.",
+    "photos": [
+      { "kind": "image", "s3Key": "I_love_Jadyn/2025-10-01/IMG_1395.jpeg" },
+      { "kind": "image", "s3Key": "I_love_Jadyn/2025-10-01/IMG_1396.jpeg" },
+      { "kind": "image", "s3Key": "I_love_Jadyn/2025-10-01/IMG_1393.jpeg" },
+      { "kind": "image", "s3Key": "I_love_Jadyn/2025-10-01/IMG_1390.jpeg" },
+      { "kind": "image", "s3Key": "I_love_Jadyn/2025-10-01/IMG_1388.jpeg" },
+      { "kind": "image", "s3Key": "I_love_Jadyn/2025-10-01/IMG_1387.jpeg" },
+      { "kind": "image", "s3Key": "I_love_Jadyn/2025-10-01/IMG_1386.jpeg" },
+      { "kind": "image", "s3Key": "I_love_Jadyn/2025-10-01/IMG_1384.jpeg" },
+      { "kind": "image", "s3Key": "I_love_Jadyn/2025-10-01/IMG_1380.jpeg" },
+      { "kind": "image", "s3Key": "I_love_Jadyn/2025-10-01/IMG_1377.jpeg" },
+      { "kind": "image", "s3Key": "I_love_Jadyn/2025-10-01/IMG_1374.jpeg" },
+      { "kind": "image", "s3Key": "I_love_Jadyn/2025-10-01/IMG_1373.jpeg" },
+      { "kind": "image", "s3Key": "I_love_Jadyn/2025-10-01/IMG_1372.jpeg" },
+      { "kind": "image", "s3Key": "I_love_Jadyn/2025-10-01/IMG_1370.jpeg" },
+      { "kind": "image", "s3Key": "I_love_Jadyn/2025-10-01/IMG_1369.jpeg" },
+      { "kind": "image", "s3Key": "I_love_Jadyn/2025-10-01/IMG_1367.jpeg" }
+    ]
+  },
+
+  {
+    "id": "2025-10-04",
+    "title": "Brunch Date",
+    "date": "2025-10-04",
+    "description": "We had a brunch date at Champ’s other job. I really loved these pictures of you.",
+    "photos": [
+      { "kind": "image", "s3Key": "I_love_Jadyn/2025-10-04/DSC01116.jpeg" },
+      { "kind": "image", "s3Key": "I_love_Jadyn/2025-10-04/DSC01115.jpeg" },
+      { "kind": "image", "s3Key": "I_love_Jadyn/2025-10-04/DSC01114.jpeg" }
+    ]
+  },
+
+  {
+    "id": "2025-10-05",
+    "title": "Flowers",
+    "date": "2025-10-05",
+    "description": "I surprised you with flowers. I thought you looked very pretty and I couldn’t not take a picture of that smile.",
+    "photos": [
+      { "kind": "image", "s3Key": "I_love_Jadyn/2025-10-05/IMG_1427.jpeg" },
+      { "kind": "image", "s3Key": "I_love_Jadyn/2025-10-05/IMG_1426.jpeg" },
+      { "kind": "image", "s3Key": "I_love_Jadyn/2025-10-05/IMG_1425.jpeg" }
+    ]
+  },
+
+  {
+    "id": "2025-10-06",
+    "title": "AY Photoshoot",
+    "date": "2025-10-06",
+    "description": "AY had a photoshoot and my oh my did you look so stunning. I adore you.",
+    "photos": [
+      { "kind": "image", "s3Key": "I_love_Jadyn/2025-10-06/IMG_6318.jpeg" },
+      { "kind": "image", "s3Key": "I_love_Jadyn/2025-10-06/IMG_6317 2.jpeg" },
+      { "kind": "image", "s3Key": "I_love_Jadyn/2025-10-06/IMG_6316 2.jpeg" },
+      { "kind": "image", "s3Key": "I_love_Jadyn/2025-10-06/IMG_6315 2.jpeg" },
+      { "kind": "image", "s3Key": "I_love_Jadyn/2025-10-06/IMG_6314 2.jpeg" },
+      { "kind": "image", "s3Key": "I_love_Jadyn/2025-10-06/IMG_6313 2.jpeg" },
+      { "kind": "image", "s3Key": "I_love_Jadyn/2025-10-06/IMG_6312 2.jpeg" },
+      { "kind": "image", "s3Key": "I_love_Jadyn/2025-10-06/IMG_6311 2.jpeg" },
+      { "kind": "image", "s3Key": "I_love_Jadyn/2025-10-06/IMG_6307 2.jpeg" },
+      { "kind": "image", "s3Key": "I_love_Jadyn/2025-10-06/IMG_6306 2.jpeg" },
+      { "kind": "image", "s3Key": "I_love_Jadyn/2025-10-06/IMG_6297 2.jpeg" },
+      { "kind": "image", "s3Key": "I_love_Jadyn/2025-10-06/IMG_6296 2.jpeg" },
+      { "kind": "image", "s3Key": "I_love_Jadyn/2025-10-06/IMG_6295 2.jpeg" },
+      { "kind": "image", "s3Key": "I_love_Jadyn/2025-10-06/IMG_6239.jpeg" },
+      { "kind": "image", "s3Key": "I_love_Jadyn/2025-10-06/IMG_1431.jpeg" },
+      { "kind": "image", "s3Key": "I_love_Jadyn/2025-10-06/DSCN1198 2.jpeg" },
+      { "kind": "image", "s3Key": "I_love_Jadyn/2025-10-06/DSCN1197 2.jpeg" },
+      { "kind": "image", "s3Key": "I_love_Jadyn/2025-10-06/DSCN1195 2.jpeg" },
+      { "kind": "image", "s3Key": "I_love_Jadyn/2025-10-06/DSCN1187.jpeg" },
+      { "kind": "image", "s3Key": "I_love_Jadyn/2025-10-06/DSCN1183 2.jpeg" },
+      { "kind": "image", "s3Key": "I_love_Jadyn/2025-10-06/DSCN1182.jpeg" },
+      { "kind": "image", "s3Key": "I_love_Jadyn/2025-10-06/DSCN1177.jpeg" },
+
+      { "kind": "video", "s3Key": "I_love_Jadyn/2025-10-06/IMG_1432.MOV" },
+      { "kind": "video", "s3Key": "I_love_Jadyn/2025-10-06/62551ee380124b9eafeaa0c75ad4655e.MOV" }
+    ]
+  },
+
+  {
+    "id": "2025-10-13",
+    "title": "Mochi Comes Home",
+    "date": "2025-10-13",
+    "description": "We brought Mochi to my house for the first time. My housemates brought her in so nicely — except for Warren. He got privileges revoked.",
+    "photos": [
+      { "kind": "image", "s3Key": "I_love_Jadyn/2025-10-13/IMG_7453.jpeg" },
+      { "kind": "image", "s3Key": "I_love_Jadyn/2025-10-13/IMG_7429.jpeg" },
+      { "kind": "image", "s3Key": "I_love_Jadyn/2025-10-13/IMG_1546.jpeg" },
+      { "kind": "image", "s3Key": "I_love_Jadyn/2025-10-13/IMG_1543.jpeg" },
+      { "kind": "image", "s3Key": "I_love_Jadyn/2025-10-13/IMG_1541.jpeg" },
+      { "kind": "image", "s3Key": "I_love_Jadyn/2025-10-13/IMG_1540.jpeg" },
+      { "kind": "image", "s3Key": "I_love_Jadyn/2025-10-13/IMG_1526.jpeg" },
+      { "kind": "image", "s3Key": "I_love_Jadyn/2025-10-13/IMG_1521.jpeg" },
+
+      { "kind": "video", "s3Key": "I_love_Jadyn/2025-10-13/IMG_7442.mov" }
+    ]
+  },
+
+  {
+    "id": "2025-10-31",
+    "title": "Halloween",
+    "date": "2025-10-31",
+    "description": "It was Halloween. You did your thing on your costumes and I loved spending the day with you. Next year is gonna be fun!",
+    "photos": [
+      { "kind": "image", "s3Key": "I_love_Jadyn/2025-10-31/IMG_6839.jpeg" },
+      { "kind": "image", "s3Key": "I_love_Jadyn/2025-10-31/IMG_6832.jpeg" },
+      { "kind": "image", "s3Key": "I_love_Jadyn/2025-10-31/IMG_6830.jpeg" },
+      { "kind": "image", "s3Key": "I_love_Jadyn/2025-10-31/IMG_6825.jpeg" },
+      { "kind": "image", "s3Key": "I_love_Jadyn/2025-10-31/IMG_6823.jpeg" },
+      { "kind": "image", "s3Key": "I_love_Jadyn/2025-10-31/IMG_6816.jpeg" },
+      { "kind": "image", "s3Key": "I_love_Jadyn/2025-10-31/IMG_6814.jpeg" },
+      { "kind": "image", "s3Key": "I_love_Jadyn/2025-10-31/IMG_6810 2.jpeg" },
+      { "kind": "image", "s3Key": "I_love_Jadyn/2025-10-31/IMG_6808 2.jpeg" },
+      { "kind": "image", "s3Key": "I_love_Jadyn/2025-10-31/IMG_6804 2.jpeg" },
+      { "kind": "image", "s3Key": "I_love_Jadyn/2025-10-31/IMG_6802 2.jpeg" },
+      { "kind": "image", "s3Key": "I_love_Jadyn/2025-10-31/DSCN1292.jpeg" },
+      { "kind": "image", "s3Key": "I_love_Jadyn/2025-10-31/DSCN1291.jpeg" },
+      { "kind": "image", "s3Key": "I_love_Jadyn/2025-10-31/DSCN1268.jpeg" },
+      { "kind": "image", "s3Key": "I_love_Jadyn/2025-10-31/DSCN1267.jpeg" },
+      { "kind": "image", "s3Key": "I_love_Jadyn/2025-10-31/DSCN1266.jpeg" },
+      { "kind": "image", "s3Key": "I_love_Jadyn/2025-10-31/DSCN1265.jpeg" },
+
+      { "kind": "video", "s3Key": "I_love_Jadyn/2025-10-31/IMG_9405.MOV" },
+      { "kind": "video", "s3Key": "I_love_Jadyn/2025-10-31/IMG_9404.MOV" },
+      { "kind": "video", "s3Key": "I_love_Jadyn/2025-10-31/IMG_1744.MOV" }
+    ]
+  }
+
+
+
+] 
