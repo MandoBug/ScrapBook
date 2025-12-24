@@ -26,7 +26,7 @@ export default function Astronaut({
         >
             {/* Astronaut */}
             <img
-                src="/src/supermochi.png"
+                src="/supermochi.png"
                 alt="Astronaut holding a letter"
                 draggable={false}
                 className="
