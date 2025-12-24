@@ -35,8 +35,12 @@ const res = await fetch(
 );
         if (!res.ok) throw new Error("Failed to load memories");
 
-        const data = (await res.json()) as Memory[];
-        setMemories(Array.isArray(data) && data.length ? data : MOCK_MEMORIES);
+        const data = (await res.json()) as Memory[];const sorted = Array.isArray(data)
+  ? [...data].sort((a, b) => b.date.localeCompare(a.date))
+  : [];
+
+setMemories(sorted.length ? sorted : MOCK_MEMORIES);
+setMemories(Array.isArray(data) && data.length ? data : MOCK_MEMORIES);
       } catch {
         setError("Could not load memories from the server.");
         setMemories(MOCK_MEMORIES);

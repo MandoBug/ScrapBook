@@ -1,56 +1,73 @@
 // src/types/memory.ts
-export type MediaItem = {
+
+export type RawMedia =
+  | {
+      kind: "image";
+      s3Key: string;
+    }
+  | {
+      kind: "video";
+      s3Key: string;
+      posterS3Key?: string;
+    };
+
+export type NormalizedMedia = {
   kind: "image" | "video";
   url: string;
   poster?: string;
 };
 
-// raw media stored on a Memory (string or object)
-export type RawMedia =
-  | string
-  | { url: string; kind?: "image" | "video"; poster?: string };
-
 export type Memory = {
   id: string;
   title: string;
-  date: string; // ISO
+  date: string;
   location?: string;
-  tags: string[];
-  photos: RawMedia[];
   description?: string;
+  photos: RawMedia[];
 };
 
-// === helpers ===
+const S3_BASE =
+  "https://mando-scrapbook-gf.s3.us-west-1.amazonaws.com";
 
-// Best display image for cards (prefer poster, else url, else first string)
-export const coverOf = (items: RawMedia[] = []): string => {
-  const first = items[0];
-  if (!first) return "";
-  if (typeof first === "string") return first;
-  return first.poster || first.url;
-};
+/**
+ * Convert raw S3 media entries into browser-ready URLs
+ */
+export function normalizeMedia(
+  photos: RawMedia[] | undefined
+): NormalizedMedia[] {
+  if (!Array.isArray(photos)) return [];
 
-export function normalizeMedia(photos: RawMedia[] = []): MediaItem[] {
-  const isVideo = (u: string) => /\.(mp4|webm|ogg|mov|m4v)$/i.test(u);
-  return photos.map((p) => {
-    if (typeof p === "string") {
-      return { kind: isVideo(p) ? "video" : "image", url: p };
-    }
-    const url = p.url || "";
-    const kind: "image" | "video" =
-      p.kind ?? (isVideo(url) ? "video" : "image");
-    return { kind, url, poster: p.poster };
-  });
+  return photos
+    .map((p) => {
+      if (p.kind === "image") {
+        return {
+          kind: "image",
+          url: `${S3_BASE}/${p.s3Key}`,
+        };
+      }
+
+      if (p.kind === "video") {
+        return {
+          kind: "video",
+          url: `${S3_BASE}/${p.s3Key}`,
+          poster: p.posterS3Key
+            ? `${S3_BASE}/${p.posterS3Key}`
+            : undefined,
+        };
+      }
+
+      return null;
+    })
+    .filter(Boolean) as NormalizedMedia[];
 }
 
-export const formatDate = (iso: string) =>
-  new Date(iso + "T00:00:00").toLocaleDateString(undefined, {
+/**
+ * Pretty date formatter (used in cards + modal)
+ */
+export function formatDate(date: string) {
+  return new Date(date).toLocaleDateString(undefined, {
+    year: "numeric",
     month: "short",
     day: "numeric",
-    year: "numeric",
   });
-
-export const allTagsFrom = (memories: Memory[]) =>
-  [...new Set(memories.flatMap((m) => m.tags))].sort((a, b) =>
-    a.localeCompare(b)
-  );
+}
