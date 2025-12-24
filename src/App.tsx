@@ -1,6 +1,4 @@
 // src/App.tsx
-import AdminPanel from "./components/AdminPanel";
-
 import { useMemo, useState, useEffect } from "react";
 import { AnimatePresence } from "framer-motion";
 import { Grid, LayoutList } from "lucide-react";
@@ -12,9 +10,9 @@ import MemoryCard from "./components/MemoryCard";
 import MemoryModal from "./components/MemoryModal";
 import ZigZagTimeline from "./components/ZigZagTimeline";
 import LoveLetterModal from "./components/LoveLetterModal";
+import AdminPanel from "./components/AdminPanel";
 
 import type { Memory } from "./types/memory";
-import { MOCK_MEMORIES } from "./data/mockMemories";
 
 export default function App() {
   const [q, setQ] = useState("");
@@ -22,48 +20,19 @@ export default function App() {
   const [view, setView] = useState<"grid" | "list">("grid");
   const [memories, setMemories] = useState<Memory[]>([]);
   const [showLetter, setShowLetter] = useState(false);
-
-  const handleMemoryCreated = (m: Memory) => {
-    setMemories((prev) =>
-      [...prev, m].sort((a, b) => b.date.localeCompare(a.date))
-    );
-  };
-
-  const handleMemoryUpdated = (m: Memory) => {
-    setMemories((prev) =>
-      prev
-        .map((x) => (x.id === m.id ? m : x))
-        .sort((a, b) => b.date.localeCompare(a.date))
-    );
-  };
-
-  const handleMemoryDeleted = (id: string) => {
-    setMemories((prev) => prev.filter((m) => m.id !== id));
-  };
-
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
 
-  // fetch memories from API on mount
   useEffect(() => {
     async function load() {
       try {
-        setLoading(true);
-        setError(null);
-
         const res = await fetch("/api/memories");
-        if (!res.ok) throw new Error("Failed to load memories from API");
-
+        if (!res.ok) throw new Error("API failed");
         const data = (await res.json()) as Memory[];
-
-        if (!Array.isArray(data) || data.length === 0) {
-          setMemories(MOCK_MEMORIES);
-        } else {
-          setMemories(data);
-        }
-      } catch (err) {
-        setError("Could not load memories from the server. Using local data.");
-        setMemories(MOCK_MEMORIES);
+        setMemories(data);
+      } catch {
+        setError("Failed to load memories.");
+        setMemories([]);
       } finally {
         setLoading(false);
       }
@@ -73,118 +42,79 @@ export default function App() {
 
   const filtered = useMemo(() => {
     const qlc = q.trim().toLowerCase();
-    return memories
-      .filter((m) => {
-        if (!qlc) return true;
-        const text =
-          (m.title ?? "") +
-          " " +
-          (m.description ?? "") +
-          " " +
-          (m.location ?? "");
-        return text.toLowerCase().includes(qlc);
-      })
-      .sort((a, b) => b.date.localeCompare(a.date));
+    return memories.filter((m) =>
+      !qlc
+        ? true
+        : `${m.title} ${m.description ?? ""} ${m.location ?? ""}`
+            .toLowerCase()
+            .includes(qlc)
+    );
   }, [memories, q]);
 
   return (
     <div className="relative min-h-screen text-zinc-100">
-      {/* Background */}
       <StarField />
-
-      {/* Easter egg astronaut */}
       <Astronaut onClick={() => setShowLetter(true)} />
 
-      {/* Foreground UI */}
       <div className="relative z-30">
-        <header className="sticky top-0 z-40 border-b border-zinc-800/80 bg-zinc-950/70 backdrop-blur">
-          <div className="mx-auto flex max-w-6xl items-center justify-between gap-3 p-3">
+        <header className="sticky top-0 z-40 border-b border-zinc-800 bg-zinc-950/70 backdrop-blur">
+          <div className="mx-auto flex max-w-6xl items-center justify-between p-3">
             <div className="flex items-center gap-2">
-              <img
-                src="/aj.svg"
-                alt="A & J"
-                className="
-                  h-10 w-10
-                  rounded-full
-                  object-contain
-                  scale-[1.3]
-                  origin-left
-                  drop-shadow-[0_0_8px_rgba(167,243,208,0.6)]
-                "
-              />
-              <h1 className="text-lg sm:text-xl font-semibold tracking-tight">
-                Book of Memories
-              </h1>
+              <img src="/aj.svg" className="h-10 w-10 scale-125" />
+              <h1 className="text-lg font-semibold">Book of Memories</h1>
             </div>
-
             <button
-              onClick={() => setView((v) => (v === "grid" ? "list" : "grid"))}
-              className="inline-flex items-center gap-2 rounded-full border border-zinc-700/60 bg-zinc-950/60 px-3 py-1.5 text-xs sm:text-sm text-zinc-300 hover:bg-zinc-900/80 transition"
+              onClick={() => setView(v => v === "grid" ? "list" : "grid")}
+              className="rounded-full border px-3 py-1 text-sm"
             >
-              {view === "grid" ? (
-                <>
-                  <LayoutList size={16} />
-                  Timeline
-                </>
-              ) : (
-                <>
-                  <Grid size={16} />
-                  Grid
-                </>
-              )}
+              {view === "grid" ? <LayoutList /> : <Grid />}
             </button>
           </div>
         </header>
 
         <section className="mx-auto max-w-6xl px-3">
-          <div className="mt-4">
-            <SearchBar value={q} onChange={setQ} />
-          </div>
+          <SearchBar value={q} onChange={setQ} />
 
-          {loading && (
-            <p className="mt-6 text-sm text-zinc-400">Loading memories…</p>
-          )}
-
-          {!loading && error && (
-            <p className="mt-3 text-sm text-amber-400">{error}</p>
-          )}
+          {loading && <p className="mt-6 text-zinc-400">Loading…</p>}
+          {error && <p className="mt-3 text-amber-400">{error}</p>}
 
           {!loading && filtered.length > 0 && (
-            <>
-              {view === "grid" ? (
-                <div className="mt-5 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
-                  <AnimatePresence mode="popLayout">
-                    {filtered.map((m) => (
-                      <MemoryCard key={m.id} memory={m} onOpen={setActive} />
-                    ))}
-                  </AnimatePresence>
-                </div>
-              ) : (
-                <ZigZagTimeline memories={filtered} onOpen={setActive} />
-              )}
-            </>
+            view === "grid" ? (
+              <div className="mt-5 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+                <AnimatePresence>
+                  {filtered.map(m => (
+                    <MemoryCard key={m.id} memory={m} onOpen={setActive} />
+                  ))}
+                </AnimatePresence>
+              </div>
+            ) : (
+              <ZigZagTimeline memories={filtered} onOpen={setActive} />
+            )
           )}
-
-          <footer className="py-10 text-center opacity-70">
-            <p className="text-sm">This is just the beginning. I 💚 you Jadyn!</p>
-          </footer>
         </section>
       </div>
 
-      {active && (
-        <MemoryModal memory={active} onClose={() => setActive(null)} />
-      )}
-
-      {showLetter && (
-        <LoveLetterModal onClose={() => setShowLetter(false)} />
-      )}
-
+      {active && <MemoryModal memory={active} onClose={() => setActive(null)} />}
+      {showLetter && <LoveLetterModal onClose={() => setShowLetter(false)} />}
       <AdminPanel
-        memories={memories}
-        onCreated={handleMemoryCreated}
-        onUpdated={handleMemoryUpdated}
-        onDeleted={handleMemoryDeleted}
-      />
+  memories={memories}
+  onCreated={(m) =>
+    setMemories((prev) =>
+      [...prev, m].sort((a, b) => b.date.localeCompare(a.date))
+    )
+  }
+  onUpdated={(m) =>
+    setMemories((prev) =>
+      prev
+        .map((x) => (x.id === m.id ? m : x))
+        .sort((a, b) => b.date.localeCompare(a.date))
+    )
+  }
+  onDeleted={(id) =>
+    setMemories((prev) => prev.filter((m) => m.id !== id))
+  }
+/>
+
     </div>
   );
 }
