@@ -234,13 +234,14 @@
   "location": "",
   "description": "I was like take some flicks with me. You absolutely didn't want to but still did anyways. I look back at these often because it was fun.",
   "photos": [
+    { "kind": "image", "s3Key": "I_love_Jadyn/2025-01-14/IMG_6405.jpeg" },
     {
       "kind": "video",
       "s3Key": "I_love_Jadyn/2025-01-14/B8209BDE-6EB1-494B-9A53-C7A0C5EBE4E8.MOV",
       "posterS3Key": "I_love_Jadyn/2025-01-14/IMG_6405.jpeg"
     },
     { "kind": "image", "s3Key": "I_love_Jadyn/2025-01-14/IMG_6401.jpeg" },
-    { "kind": "image", "s3Key": "I_love_Jadyn/2025-01-14/IMG_6405.jpeg" },
+    
     { "kind": "image", "s3Key": "I_love_Jadyn/2025-01-14/IMG_6406.jpeg" },
     { "kind": "image", "s3Key": "I_love_Jadyn/2025-01-14/IMG_6407.jpeg" },
     { "kind": "image", "s3Key": "I_love_Jadyn/2025-01-14/IMG_6408.jpeg" },
@@ -256,6 +257,7 @@
   "location": "",
   "description": "A day packed with moments. I bought you flowers for the very first time. We went on a hangout(not a date). I remember this day so vividly because I was so happy to get you flowers.",
   "photos": [
+    { "kind": "image", "s3Key": "I_love_Jadyn/2025-01-20/IMG_6497.jpeg" },
     {
       "kind": "video",
       "s3Key": "I_love_Jadyn/2025-01-20/7AE8B8D0-651C-4F1C-BA5F-EDE58463BC3B.MP4",
@@ -287,8 +289,7 @@
     { "kind": "image", "s3Key": "I_love_Jadyn/2025-01-20/IMG_6493.jpeg" },
     { "kind": "image", "s3Key": "I_love_Jadyn/2025-01-20/IMG_6494.jpeg" },
     { "kind": "image", "s3Key": "I_love_Jadyn/2025-01-20/IMG_6495.jpeg" },
-    { "kind": "image", "s3Key": "I_love_Jadyn/2025-01-20/IMG_6496.jpeg" },
-    { "kind": "image", "s3Key": "I_love_Jadyn/2025-01-20/IMG_6497.jpeg" }
+    { "kind": "image", "s3Key": "I_love_Jadyn/2025-01-20/IMG_6496.jpeg" }
   ]
 },
 {
@@ -298,13 +299,13 @@
   "location": "",
   "description": "Starting February together. A lot of pictures, from pottery to making homemade pizza. I definitely loved this day. ",
   "photos": [
+    { "kind": "image", "s3Key": "I_love_Jadyn/2025-02-01/IMG_3660.jpeg" },
     {
       "kind": "video",
       "s3Key": "I_love_Jadyn/2025-02-01/IMG_3672.MOV",
       "posterS3Key": "I_love_Jadyn/2025-02-01/IMG_3660.jpeg"
     },
 
-    { "kind": "image", "s3Key": "I_love_Jadyn/2025-02-01/IMG_3660.jpeg" },
     { "kind": "image", "s3Key": "I_love_Jadyn/2025-02-01/IMG_3662.jpeg" },
     { "kind": "image", "s3Key": "I_love_Jadyn/2025-02-01/IMG_3663.jpeg" },
     { "kind": "image", "s3Key": "I_love_Jadyn/2025-02-01/IMG_3666.jpeg" },

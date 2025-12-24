@@ -1,9 +1,4 @@
-// src/components/ZigZagTimeline.tsx
-import {
-  useLayoutEffect,
-  useRef,
-  useState,
-} from "react";
+import { useLayoutEffect, useRef, useState, useMemo } from "react";
 import { motion } from "framer-motion";
 import { CalendarDays, MapPin } from "lucide-react";
 import type { Memory } from "../types/memory";
@@ -14,7 +9,7 @@ type Segment = { p: Pt; cp1: Pt; cp2: Pt; n: Pt };
 
 const THREAD_STAR_DENSITY = 6;
 
-// ---------------- geometry helpers ----------------
+// -------- geometry helpers (ORIGINAL CURVATURE) --------
 function makeSegments(points: Pt[], curve = 0.45, minPull = 40): Segment[] {
   const segs: Segment[] = [];
   for (let i = 0; i < points.length - 1; i++) {
@@ -22,9 +17,13 @@ function makeSegments(points: Pt[], curve = 0.45, minPull = 40): Segment[] {
     const n = points[i + 1];
     const dx = n.x - p.x;
     const pull = Math.max(minPull, Math.abs(dx) * curve);
-    const cp1: Pt = { x: p.x + Math.sign(dx) * pull, y: p.y };
-    const cp2: Pt = { x: n.x - Math.sign(dx) * pull, y: n.y };
-    segs.push({ p, cp1, cp2, n });
+
+    segs.push({
+      p,
+      cp1: { x: p.x + Math.sign(dx || 1) * pull, y: p.y },
+      cp2: { x: n.x - Math.sign(dx || 1) * pull, y: n.y },
+      n,
+    });
   }
   return segs;
 }
@@ -48,16 +47,17 @@ function bezierAt(t: number, p: Pt, c1: Pt, c2: Pt, n: Pt): Pt {
 function pathFromSegments(segs: Segment[]): string {
   if (!segs.length) return "";
   let d = `M ${segs[0].p.x} ${segs[0].p.y}`;
-  for (const s of segs)
+  for (const s of segs) {
     d += ` C ${s.cp1.x} ${s.cp1.y}, ${s.cp2.x} ${s.cp2.y}, ${s.n.x} ${s.n.y}`;
+  }
   return d;
 }
 
-function sampleThreadStars(segs: Segment[], perSegment = THREAD_STAR_DENSITY) {
+function sampleThreadStars(segs: Segment[]) {
   const beads: Array<Pt & { delay: number; size: number }> = [];
   segs.forEach((s, si) => {
-    for (let j = 1; j <= perSegment; j++) {
-      const t = j / (perSegment + 1);
+    for (let j = 1; j <= THREAD_STAR_DENSITY; j++) {
+      const t = j / (THREAD_STAR_DENSITY + 1);
       const pt = bezierAt(t, s.p, s.cp1, s.cp2, s.n);
       beads.push({
         ...pt,
@@ -69,15 +69,16 @@ function sampleThreadStars(segs: Segment[], perSegment = THREAD_STAR_DENSITY) {
   return beads;
 }
 
-// ---------------- component ----------------
+// -------- component --------
 type TimelineProps = {
   memories: Memory[];
   onOpen: (m: Memory) => void;
 };
 
 export default function ZigZagTimeline({ memories, onOpen }: TimelineProps) {
-  const sorted = [...memories].sort((a, b) =>
-    b.date.localeCompare(a.date)
+  const sorted = useMemo(
+    () => [...memories].sort((a, b) => b.date.localeCompare(a.date)),
+    [memories]
   );
 
   const containerRef = useRef<HTMLDivElement | null>(null);
@@ -89,37 +90,33 @@ export default function ZigZagTimeline({ memories, onOpen }: TimelineProps) {
   const [beads, setBeads] = useState<
     Array<Pt & { delay: number; size: number }>
   >([]);
-  const [minH, setMinH] = useState(0);
 
   const buildPath = () => {
     const container = containerRef.current;
     if (!container) return;
 
     const crect = container.getBoundingClientRect();
-    const baseTop = crect.top + window.scrollY;
-    const baseLeft = crect.left + window.scrollX;
-
-    const viewportBottom = window.scrollY + window.innerHeight;
-    setMinH(Math.max(0, viewportBottom - baseTop - 24));
 
     const pts: Pt[] = [];
     pinRefs.current.forEach((el) => {
       if (!el) return;
       const r = el.getBoundingClientRect();
       pts.push({
-        x: r.left + r.width / 2 - baseLeft,
-        y: r.top + r.height / 2 - baseTop,
+        x: r.left + r.width / 2 - crect.left,
+        y: r.top + r.height / 2 - crect.top,
       });
     });
 
-    const segs = makeSegments(pts, 0.5, 60);
+    if (pts.length < 2) return;
+
+    const segs = makeSegments(pts);
     setPathD(pathFromSegments(segs));
     setBeads(sampleThreadStars(segs));
-    setHeight(Math.max(container.scrollHeight, minH));
+    setHeight(Math.max(container.scrollHeight, 300));
   };
 
   const schedule = () => {
-    if (rafId.current !== null) return;
+    if (rafId.current) return;
     rafId.current = requestAnimationFrame(() => {
       rafId.current = null;
       buildPath();
@@ -127,99 +124,142 @@ export default function ZigZagTimeline({ memories, onOpen }: TimelineProps) {
   };
 
   useLayoutEffect(() => {
-    buildPath();
+    schedule();
+    requestAnimationFrame(schedule);
+
     const ro = new ResizeObserver(schedule);
-    if (containerRef.current) ro.observe(containerRef.current);
+    containerRef.current && ro.observe(containerRef.current);
     pinRefs.current.forEach((el) => el && ro.observe(el));
-    window.addEventListener("scroll", schedule, { passive: true });
+
     window.addEventListener("resize", schedule);
     return () => {
-      ro.disconnect();
-      window.removeEventListener("scroll", schedule);
       window.removeEventListener("resize", schedule);
+      ro.disconnect();
       if (rafId.current) cancelAnimationFrame(rafId.current);
     };
   }, [sorted.length]);
 
   return (
-    <div ref={containerRef} className="relative mt-6" style={{ minHeight: minH || undefined }}>
-      {/* SVG thread */}
-      <svg className="pointer-events-none absolute inset-0 z-0" width="100%" height={height}>
-        <path d={pathD} fill="none" stroke="rgba(148,163,184,0.45)" strokeWidth={6} />
-        <path d={pathD} fill="none" stroke="#ffffff" strokeOpacity={0.25} strokeWidth={1} />
+    <div ref={containerRef} className="relative mt-6">
+      {/* THREAD - behind cards and fixed position */}
+      <svg
+        className="pointer-events-none absolute inset-0"
+        width="100%"
+        height={height}
+        style={{ zIndex: 5, overflow: "visible" }}
+      >
+        <defs>
+          <linearGradient id="threadGrad" x1="0" y1="0" x2="0" y2="1">
+            <stop offset="0%" stopColor="rgba(248,250,252,0)" />
+            <stop offset="50%" stopColor="rgba(191,219,254,0.6)" />
+            <stop offset="100%" stopColor="rgba(248,250,252,0)" />
+          </linearGradient>
+        </defs>
+
+        <path
+          d={pathD}
+          fill="none"
+          stroke="rgba(148,163,184,0.8)"
+          strokeWidth={3}
+          strokeLinecap="round"
+        />
+        <path
+          d={pathD}
+          fill="none"
+          stroke="rgba(191,219,254,0.9)"
+          strokeWidth={2}
+          strokeLinecap="round"
+        />
       </svg>
 
-      {beads.map((b, i) => (
-        <span
-          key={i}
-          className="pointer-events-none absolute -translate-x-1/2 -translate-y-1/2 rounded-full animate-pulse"
-          style={{
-            left: b.x,
-            top: b.y,
-            width: b.size,
-            height: b.size,
-            background: "rgba(248,250,252,0.95)",
-            animationDelay: `${b.delay}s`,
-          }}
-        />
-      ))}
-
-      <div className="relative z-10">
-        {sorted.map((m, i) => (
-          <TimelineCard
-            key={m.id}
-            memory={m}
-            onOpen={onOpen}
-            side={i % 2 === 0 ? "left" : "right"}
-            pinRef={(el) => {
-              pinRefs.current[i] = el;
-              schedule();
+      {/* BEADS - HIDDEN */}
+      <div className="absolute inset-0 z-15 pointer-events-none hidden">
+        {beads.map((b, i) => (
+          <span
+            key={i}
+            className="absolute -translate-x-1/2 -translate-y-1/2 rounded-full animate-pulse"
+            style={{
+              left: b.x,
+              top: b.y,
+              width: b.size,
+              height: b.size,
+              background: "rgba(248,250,252,0.95)",
+              animationDelay: `${b.delay}s`,
             }}
-            onImgLoad={schedule}
           />
         ))}
+      </div>
+
+      {/* CARDS */}
+      <div className="relative" style={{ zIndex: 10 }}>
+        {sorted.map((m, i) => {
+          const left = i % 2 === 0;
+          return (
+            <div
+              key={m.id}
+              className="relative grid md:grid-cols-2 items-center py-6 px-2"
+            >
+              <div className={left ? "md:pr-10" : "md:col-start-2 md:pl-10"}>
+                <TimelineCard
+                  memory={m}
+                  side={left ? "left" : "right"}
+                  onOpen={onOpen}
+                  pinRef={(el) => {
+                    pinRefs.current[i] = el;
+                    schedule();
+                  }}
+                />
+              </div>
+            </div>
+          );
+        })}
       </div>
     </div>
   );
 }
 
-// ---------------- card ----------------
-type CardProps = {
+// -------- card --------
+function TimelineCard({
+  memory,
+  side,
+  onOpen,
+  pinRef,
+}: {
   memory: Memory;
-  onOpen: (m: Memory) => void;
   side: "left" | "right";
+  onOpen: (m: Memory) => void;
   pinRef: (el: HTMLSpanElement | null) => void;
-  onImgLoad: () => void;
-};
-
-function TimelineCard({ memory, onOpen, side, pinRef, onImgLoad }: CardProps) {
+}) {
   const media = normalizeMedia(memory.photos);
   const cover = media[0];
 
   return (
     <motion.button
       onClick={() => onOpen(memory)}
-      whileHover={{ y: -2, scale: 1.01 }}
-      whileTap={{ scale: 0.99 }}
-      className="group relative w-full text-left py-6 px-2"
+      className="group relative w-full text-left"
+      whileHover={{ y: -2 }}
     >
       <div className="rounded-2xl border border-zinc-700/70 bg-zinc-900/85 p-3 shadow-md">
         <div className="flex gap-4">
-          {cover && (
-            <img
-              src={cover.url}
-              onLoad={onImgLoad}
-              alt={memory.title}
-              className="h-20 w-28 rounded-lg object-cover"
-            />
-          )}
+          <div className="relative">
+            {cover && (
+              <img
+                src={cover.url}
+                alt={memory.title}
+                className="h-20 w-28 rounded-lg object-cover"
+              />
+            )}
 
-          <span
-            ref={pinRef}
-            className={`absolute top-1/2 -translate-y-1/2 h-3 w-3 rounded-full opacity-0 ${
-              side === "left" ? "right-0 translate-x-1/2" : "left-0 -translate-x-1/2"
-            }`}
-          />
+            <span
+              ref={pinRef}
+              className={`absolute top-1/2 -translate-y-1/2 h-3 w-3 ${
+                side === "left"
+                  ? "right-0 translate-x-1/2"
+                  : "left-0 -translate-x-1/2"
+              }`}
+              style={{ opacity: 0, pointerEvents: 'none' }}
+            />
+          </div>
 
           <div className="flex-1">
             <div className="text-xs text-zinc-300 flex items-center gap-2">
@@ -231,9 +271,7 @@ function TimelineCard({ memory, onOpen, side, pinRef, onImgLoad }: CardProps) {
                 </>
               )}
             </div>
-            <div className="mt-0.5 font-medium text-zinc-50">
-              {memory.title}
-            </div>
+            <div className="font-medium text-zinc-50">{memory.title}</div>
             {memory.description && (
               <p className="mt-1 text-xs text-zinc-400 line-clamp-2">
                 {memory.description}

@@ -64,10 +64,15 @@ export function normalizeMedia(
 /**
  * Pretty date formatter (used in cards + modal)
  */
-export function formatDate(date: string) {
-  return new Date(date).toLocaleDateString(undefined, {
-    year: "numeric",
+export function formatDate(dateStr: string) {
+  // Force LOCAL date parsing instead of UTC
+  const [y, m, d] = dateStr.split("-").map(Number);
+  const date = new Date(y, m - 1, d);
+
+  return date.toLocaleDateString(undefined, {
     month: "short",
     day: "numeric",
+    year: "numeric",
   });
 }
+
