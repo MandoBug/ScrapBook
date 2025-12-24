@@ -1,22 +1,13 @@
-// src/components/AdminPanel.tsx
 import { useEffect, useState } from "react";
 import type { Memory } from "../types/memory";
 
 type Props = {
   memories: Memory[];
-  onCreated: (m: Memory) => void;
   onUpdated: (m: Memory) => void;
-  onDeleted: (id: string) => void;
 };
 
-export default function AdminPanel({
-  memories,
-  onCreated,
-  onUpdated,
-  onDeleted,
-}: Props) {
+export default function AdminPanel({ memories, onUpdated }: Props) {
   const [show, setShow] = useState(false);
-  const [mode, setMode] = useState<"edit">("edit");
   const [adminKey, setAdminKey] = useState("");
 
   const [selectedId, setSelectedId] = useState("");
@@ -35,6 +26,7 @@ export default function AdminPanel({
     setSuccess("");
   };
 
+  // Load selected memory into form
   useEffect(() => {
     if (!selectedId) return;
     const m = memories.find((x) => x.id === selectedId);
@@ -48,9 +40,11 @@ export default function AdminPanel({
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
+    if (!selectedId) return;
+
+    setSaving(true);
     setError(null);
     setSuccess("");
-    setSaving(true);
 
     try {
       const res = await fetch(`/api/memories/${selectedId}`, {
@@ -67,10 +61,13 @@ export default function AdminPanel({
         }),
       });
 
-      if (!res.ok) throw new Error("Update failed");
+      if (!res.ok) {
+        const msg = await res.text();
+        throw new Error(msg || "Update failed");
+      }
 
-      const memory: Memory = await res.json();
-      onUpdated(memory);
+      const updated: Memory = await res.json();
+      onUpdated(updated);
       setSuccess("Updated!");
     } catch (err: any) {
       setError(err.message ?? "Something went wrong");
