@@ -24,21 +24,25 @@ export default function App() {
   const [error, setError] = useState<string | null>(null);
 
   useEffect(() => {
-    async function load() {
-      try {
-        const res = await fetch("/api/memories");
-        if (!res.ok) throw new Error("API failed");
-        const data = (await res.json()) as Memory[];
-        setMemories(data);
-      } catch {
-        setError("Failed to load memories.");
-        setMemories([]);
-      } finally {
-        setLoading(false);
-      }
+  async function load() {
+    try {
+      setLoading(true);
+      setError(null);
+
+      const res = await fetch("/api/memories");
+      if (!res.ok) throw new Error("Failed to load memories");
+
+      const data = (await res.json()) as Memory[];
+      setMemories(data);
+    } catch (err) {
+      setError("Could not load memories from the server.");
+    } finally {
+      setLoading(false);
     }
-    load();
-  }, []);
+  }
+  load();
+}, []);
+
 
   const filtered = useMemo(() => {
     const qlc = q.trim().toLowerCase();
