@@ -1,4 +1,3 @@
-import AdminPanel from "./components/AdminPanel";
 import { useMemo, useState, useEffect } from "react";
 import { AnimatePresence } from "framer-motion";
 import { Grid, LayoutList } from "lucide-react";
@@ -21,11 +20,6 @@ export default function App() {
   const [memories, setMemories] = useState<Memory[]>([]);
   const [showLetter, setShowLetter] = useState(false);
 
-  const handleMemoryUpdated = (m: Memory) => {
-    setMemories((prev) =>
-      prev.map((x) => (x.id === m.id ? m : x))
-    );
-  };
 
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
@@ -36,7 +30,9 @@ export default function App() {
         setLoading(true);
         setError(null);
 
-        const res = await fetch("/api/memories");
+const res = await fetch(
+  "https://mando-scrapbook-gf.s3.us-west-1.amazonaws.com/memories.json"
+);
         if (!res.ok) throw new Error("Failed to load memories");
 
         const data = (await res.json()) as Memory[];
@@ -128,8 +124,6 @@ export default function App() {
       {showLetter && (
         <LoveLetterModal onClose={() => setShowLetter(false)} />
       )}
-
-      <AdminPanel memories={memories} onUpdated={handleMemoryUpdated} />
     </div>
   );
 }
