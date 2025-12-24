@@ -1,4 +1,8 @@
+// src/utils/s3.ts
+const BUCKET = "mando-scrapbook-gf";
+const REGION = "us-west-1";
+
 export function s3Url(key?: string) {
-  if (!key) return undefined;
-  return `${import.meta.env.VITE_S3_PUBLIC_BASE_URL}/${key}`;
+  if (!key) return "";
+  return `https://${BUCKET}.s3.${REGION}.amazonaws.com/${key}`;
 }
